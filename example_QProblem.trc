@@ -1,0 +1,655 @@
+-- ****************************************************************************
+--
+--  Trace file: example_QProblem.trc
+--
+--  RTI1007 7.16 (02-May-2021)
+--  Sun Jan 16 14:43:25 2022
+--
+--  Copyright 2022, dSPACE GmbH. All rights reserved.
+--
+-- ****************************************************************************
+--
+--  Used options:
+--    TRCGenerateVirtualBlocks      = 0
+--    TRCGenerateLabels             = 0
+--    TRCGenerateStates             = 0
+--    TRCGenerateDerivatives        = 0
+--    TRCGenerateParamValues        = 0
+--    TRCGenerateApplicationKeyword = 0
+--    TRCOnlyGlobals                = 0
+--    TRCIsOmitVdOn                 = 0
+--
+--  Trace file format: 3
+
+-- ******** Keywords **********************************************************
+-- _application "example_QProblem.map"
+
+_genname     "RTI"
+_genversion  "7.16"
+_gendate     "01/16/2022 14:43:29"
+_description ""
+_author      "RTI1007 7.16 (02-May-2021)"
+_model       "example_QProblem"
+
+-- Default data type formats
+_floating_point_type(64,IEEE)
+_integer_type(32)
+
+-- No Data Capture blocks within model: use base sample time as sampling period
+sampling_period[0]
+{
+  value:       0.001
+  alias:       "HostService"
+  increment:   0.001
+  unit:        "s"
+}
+
+
+
+-- Type definitions for structures
+
+struct example_QProblem_struct_isB4Cw3Ovpp8VfzP6RUqbD
+{
+  array-incr: 4         
+}
+    structField0 
+    {
+      alias:   "OutputPortsWidth"
+      type:    int(32)
+      offs:    0
+    }
+endstruct
+
+typedef example_QProblem_struct_xEqvi9TLYBq4wkV3XNUZ9C_values_0 col flt(64,IEEE)[2][2]
+
+struct example_QProblem_struct_xEqvi9TLYBq4wkV3XNUZ9C
+{
+  array-incr: 40        
+}
+    structField0 
+    {
+      alias:   "values"
+      type:    example_QProblem_struct_xEqvi9TLYBq4wkV3XNUZ9C_values_0
+      offs:    0
+    }
+    structField1 
+    {
+      alias:   "dimensions"
+      type:    flt(64,IEEE)
+      offs:    32
+    }
+endstruct
+
+typedef example_QProblem_struct_Igb9GpC8iRZITmXJkZT0SG_time_0 flt(64,IEEE)[2]
+
+struct example_QProblem_struct_Igb9GpC8iRZITmXJkZT0SG
+{
+  array-incr: 56        
+}
+    structField0 
+    {
+      alias:   "time"
+      type:    example_QProblem_struct_Igb9GpC8iRZITmXJkZT0SG_time_0
+      offs:    0
+    }
+    structField1 
+    {
+      alias:   "signals"
+      type:    struct example_QProblem_struct_xEqvi9TLYBq4wkV3XNUZ9C
+      offs:    16
+    }
+endstruct
+
+struct example_QProblem_struct_BMMilQx77KtD5iKXNY1kyD
+{
+  array-incr: 24        
+}
+    structField0 
+    {
+      alias:   "values"
+      type:    example_QProblem_struct_Igb9GpC8iRZITmXJkZT0SG_time_0
+      offs:    0
+    }
+    structField1 
+    {
+      alias:   "dimensions"
+      type:    flt(64,IEEE)
+      offs:    16
+    }
+endstruct
+
+struct example_QProblem_struct_g5taHydj5oqGluKqjR4mWH
+{
+  array-incr: 40        
+}
+    structField0 
+    {
+      alias:   "time"
+      type:    example_QProblem_struct_Igb9GpC8iRZITmXJkZT0SG_time_0
+      offs:    0
+    }
+    structField1 
+    {
+      alias:   "signals"
+      type:    struct example_QProblem_struct_BMMilQx77KtD5iKXNY1kyD
+      offs:    16
+    }
+endstruct
+
+
+-- ******** Simulation control variables **************************************
+
+finalTime
+{
+ type:  flt(64,IEEE)*
+ alias: "finalTime"
+ desc:  "Simulation stop time. When reached, simState switches to STOP."
+ flags:  READONLY
+ unit:  "s"
+ addr:    0x4809B8F4
+}
+
+currentTime
+{
+ type:  flt(64,IEEE)*
+ alias: "currentTime"
+ desc:  "Current simulation time. Increments with execution of Timer Task 1."
+ flags: READONLY
+ unit:  "s"
+ addr:    0x4809B8F0
+}
+
+modelStepSize
+{
+ type:  flt(64,IEEE)
+ alias: "modelStepSize"
+ desc:  "Fixed step size of the model, sample time of Timer Task 1."
+ flags: READONLY
+ unit:  "s"
+ addr:    0x4809B8F8
+}
+
+simState
+{
+ type:  int(32)
+ alias: "simState"
+ desc:  "Simulation state: STOP=0 RUN=2"
+ unit:  "-"
+ addr:    0x4807AC50
+}
+
+p_msg_last_error_no
+{
+ type:  uint(32)*
+ alias: "errorNumber"
+ desc:  "Error number of last error message (zero if no error)."
+ unit:  "-"
+ flags: READONLY
+ addr:    0x48072F34
+}
+
+p_dsts_sum_of_reset_time
+{
+ type:  flt(64,IEEE)*
+ alias: "sumOfResetTime"
+ desc:  "Internal variable for summing up reset time."
+ unit:  "s"
+ flags: READONLY|HIDDEN
+ addr:    0x48072F30
+}
+
+
+-- ******** Task Information variables ****************************************
+group "Task Info"
+{
+ 
+}
+  group "Timer Task 1"
+  {
+   
+  }
+
+  pRti_TIMERA_STime
+  {
+   type:  flt(64,IEEE)*
+   alias: "sampleTime"
+   flags: READONLY
+ addr:    0x4809B904
+}
+  pRti_TIMERA_TTime
+  {
+   type:  flt(64,IEEE)*
+   alias: "turnaroundTime"
+   flags: READONLY
+		 addr:    0x4809B908
+		}
+  pRti_TIMERA_TState
+  {
+   type:  int(32)*
+   alias: "state"
+   flags: READONLY
+		 addr:    0x4809B90C
+		}
+  pRti_TIMERA_OType
+  {
+   type:  int(32)*
+   alias: "overrunCheckType"
+   flags: READONLY
+ addr:    0x4809B910
+}
+  pRti_TIMERA_OMax
+  {
+   type:  int(32)*
+   alias: "overrunQueueMax"
+   flags: READONLY
+ addr:    0x4809B914
+}
+  pRti_TIMERA_ORpt
+  {
+   type:  int(32)*
+   alias: "overrunQueueCount"
+   flags: READONLY
+ addr:    0x4809B918
+}
+  pRti_TIMERA_OCnt
+  {
+   type:  int(32)*
+   alias: "overrunCount"
+   flags: READONLY
+ addr:    0x4809B91C
+}
+  pRti_TIMERA_TCnt
+  {
+   type:  flt(64,IEEE)*
+   alias: "taskCallCount"
+   flags: READONLY
+		 addr:    0x4809B920
+		}
+  pRti_TIMERA_Prio
+  {
+   type:  int(32)*
+   alias: "priority"
+   flags: READONLY
+ addr:    0x4809B924
+}
+  endgroup
+
+  group "Timer Task 2"
+  {
+   
+  }
+
+  pRti_TIMERA2_STime
+  {
+   type:  flt(64,IEEE)*
+   alias: "sampleTime"
+   flags: READONLY
+		 addr:    0x4809B92C
+		}
+  pRti_TIMERA2_TTime
+  {
+   type:  flt(64,IEEE)*
+   alias: "turnaroundTime"
+   flags: READONLY
+ addr:    0x4809B930
+}
+  pRti_TIMERA2_TState
+  {
+   type:  int(32)*
+   alias: "state"
+   flags: READONLY
+ addr:    0x4809B934
+}
+  pRti_TIMERA2_OType
+  {
+   type:  int(32)*
+   alias: "overrunCheckType"
+   flags: READONLY
+ addr:    0x4809B938
+}
+  pRti_TIMERA2_OMax
+  {
+   type:  int(32)*
+   alias: "overrunQueueMax"
+   flags: READONLY
+ addr:    0x4809B93C
+}
+  pRti_TIMERA2_ORpt
+  {
+   type:  int(32)*
+   alias: "overrunQueueCount"
+   flags: READONLY
+		 addr:    0x4809B940
+		}
+  pRti_TIMERA2_OCnt
+  {
+   type:  int(32)*
+   alias: "overrunCount"
+   flags: READONLY
+ addr:    0x4809B944
+}
+  pRti_TIMERA2_TCnt
+  {
+   type:  flt(64,IEEE)*
+   alias: "taskCallCount"
+   flags: READONLY
+		 addr:    0x4809B948
+		}
+  pRti_TIMERA2_Prio
+  {
+   type:  int(32)*
+   alias: "priority"
+   flags: READONLY
+ addr:    0x4809B94C
+}
+  endgroup
+
+
+endgroup
+
+
+-- ******** Model variables ***************************************************
+
+group "Model Root"
+	group "g" -- block-group
+	{
+	 block: "FromWorkspace"
+	}
+		p_0_example_QProblem_real_T_0[0]
+		{
+		 type:    example_QProblem_struct_Igb9GpC8iRZITmXJkZT0SG_time_0*
+		 alias:   "Out1"
+		 flags:   OUTPUT|READONLY
+ addr:    0x4809B8B0
+}
+
+
+	endgroup -- block-group "g"
+
+	group "lb" -- block-group
+	{
+	 block: "FromWorkspace"
+	}
+		p_0_example_QProblem_real_T_0[2]
+		{
+		 type:    example_QProblem_struct_Igb9GpC8iRZITmXJkZT0SG_time_0*
+		 alias:   "Out1"
+		 flags:   OUTPUT|READONLY
+		 addr:    0x4809B8B0
+		}
+
+
+	endgroup -- block-group "lb"
+
+	group "lbA" -- block-group
+	{
+	 block: "FromWorkspace"
+	}
+		p_0_example_QProblem_real_T_0[6]
+		{
+		 type:    flt(64,IEEE)*
+		 alias:   "Out1"
+		 flags:   OUTPUT|READONLY
+		 addr:    0x4809B8B0
+		}
+
+
+	endgroup -- block-group "lbA"
+
+	group "ub" -- block-group
+	{
+	 block: "FromWorkspace"
+	}
+		p_0_example_QProblem_real_T_0[4]
+		{
+		 type:    example_QProblem_struct_Igb9GpC8iRZITmXJkZT0SG_time_0*
+		 alias:   "Out1"
+		 flags:   OUTPUT|READONLY
+		 addr:    0x4809B8B0
+		}
+
+
+	endgroup -- block-group "ub"
+
+	group "ubA" -- block-group
+	{
+	 block: "FromWorkspace"
+	}
+		p_0_example_QProblem_real_T_0[7]
+		{
+		 type:    flt(64,IEEE)*
+		 alias:   "Out1"
+		 flags:   OUTPUT|READONLY
+ addr:    0x4809B8B0
+}
+
+
+	endgroup -- block-group "ubA"
+
+	group "qpOASES" -- block-group
+	{
+	 block: "S-Function"
+	}
+		p_0_example_QProblem_real_T_0[8]
+		{
+		 type:    example_QProblem_struct_Igb9GpC8iRZITmXJkZT0SG_time_0*
+		 alias:   "Out1"
+		 flags:   OUTPUT|READONLY
+		 addr:    0x4809B8B0
+		}
+		p_0_example_QProblem_real_T_0[10]
+		{
+		 type:    flt(64,IEEE)*
+		 alias:   "Out2"
+		 flags:   OUTPUT|READONLY
+		 addr:    0x4809B8B0
+		}
+		p_0_example_QProblem_real_T_0[11]
+		{
+		 type:    flt(64,IEEE)*
+		 alias:   "Out3"
+		 flags:   OUTPUT|READONLY
+ addr:    0x4809B8B0
+}
+		p_0_example_QProblem_real_T_0[12]
+		{
+		 type:    flt(64,IEEE)*
+		 alias:   "Out4"
+		 flags:   OUTPUT|READONLY
+ addr:    0x4809B8B0
+}
+
+		trcref0_H
+		{
+		 refgroup: "/Tunable Parameters"
+		 refvar:   "H"
+		 alias:    "H"
+}
+		trcref1_A
+		{
+		 refgroup: "/Tunable Parameters"
+		 refvar:   "A"
+		 alias:    "A"
+		}
+		trcref0_P1
+		{
+		 refgroup: "/Tunable Parameters"
+		 refvar:   "H"
+		 alias:    "P1"
+		 flags:    DEPRECATED|HIDDEN
+}
+		trcref1_P2
+		{
+		 refgroup: "/Tunable Parameters"
+		 refvar:   "A"
+		 alias:    "P2"
+		 flags:    DEPRECATED|HIDDEN
+		}
+
+
+	endgroup -- block-group "qpOASES"
+
+	group "x,\nfval,\nexitflag,\niter" -- block-group
+	{
+	 block: "Scope"
+	}
+		p_0_example_QProblem_real_T_0[8]
+		{
+		 type:    example_QProblem_struct_Igb9GpC8iRZITmXJkZT0SG_time_0*
+		 alias:   "In1"
+		 flags:   READONLY
+ addr:    0x4809B8B0
+}
+		p_0_example_QProblem_real_T_0[10]
+		{
+		 type:    flt(64,IEEE)*
+		 alias:   "In2"
+		 flags:   READONLY
+		 addr:    0x4809B8B0
+		}
+		p_0_example_QProblem_real_T_0[11]
+		{
+		 type:    flt(64,IEEE)*
+		 alias:   "In3"
+		 flags:   READONLY
+		 addr:    0x4809B8B0
+		}
+		p_0_example_QProblem_real_T_0[12]
+		{
+		 type:    flt(64,IEEE)*
+		 alias:   "In4"
+		 flags:   READONLY
+ addr:    0x4809B8B0
+}
+
+
+
+	endgroup -- block-group "x,\nfval,\nexitflag,\niter"
+
+  
+  
+	group "PROC_SETUP_BL1" -- subsystem-group
+
+
+	endgroup -- subsystem-group "PROC_SETUP_BL1"
+  
+  
+	group "RTI Data" -- subsystem-group
+
+
+	endgroup -- subsystem-group "RTI Data"
+
+
+
+endgroup -- "Model Root"
+-- ******** Tunable Parameters ************************************************
+
+group "Tunable Parameters"
+
+	p_1_example_QProblem_real_T_0[2]
+	{
+	 type:    example_QProblem_struct_Igb9GpC8iRZITmXJkZT0SG_time_0*
+	 alias:   "A"
+	 flags:   PARAM
+ addr:    0x4809B8B4
+}
+	p_1_example_QProblem_real_T_0[6]
+	{
+	 type:    example_QProblem_struct_xEqvi9TLYBq4wkV3XNUZ9C_values_0*
+	 alias:   "H"
+	 flags:   PARAM
+ addr:    0x4809B8B4
+}
+
+endgroup
+
+-- ******** State Machine Data ************************************************
+
+-- No Stateflow chart within the model.
+
+
+-- ******** Labels ************************************************************
+
+-- Generation of labels turned off with TRCGenerateLabels option.
+
+-- ******** RTT Dynamic Variables *********************************************
+
+group "RTT Dynamic Variables"
+
+endgroup
+
+-- ******** User variables from model_usr.trc *********************************
+
+-- RTI_USR_TRC_BEGIN
+
+-- No user file example_QProblem_usr.trc found.
+
+-- RTI_USR_TRC_END
+
+-- ******** EESPort States Variables ******************************************
+group "XIL API"
+{ 
+  
+}
+
+  group "EESPort"
+  {  
+    
+  }
+
+    p_xilapi_eesport_activeerrorset_uint32_T
+    {
+      type:    uint(32)*
+      alias:   "Active ErrorSet"
+      desc:    "Index of active ErrorSet or 0 if no ErrorSet is active."
+      flags:   OUTPUT|READONLY
+      range:   < 0 ; 4294967295 >
+ addr:    0x48099AC8
+}
+
+    p_xilapi_eesport_erroractivated_uint32_T
+    {
+      type:    uint(32)*
+      alias:   "Error Activated"
+      desc:    "0 - no error is activated on hardware, 1 - at least one error is activated on hardware."  
+      flags:   OUTPUT|READONLY
+      range:   < 0 ; 1 >
+ addr:    0x48099AC4
+}
+
+    p_xilapi_eesport_errorswitching_uint32_T
+    {
+      type:    uint(32)*
+      alias:   "Error Switching"
+      desc:    "0 - no switching operation running on hardware, 1 -  switching operation running on hardware."
+      flags:   OUTPUT|READONLY
+      range:   < 0 ; 1 >
+ addr:    0x48099AC0
+}
+
+    xilapi_eesport_flags_uint32_T
+    {
+      type:    uint(32)
+      alias:   "Flags"
+      flags:   OUTPUT|READONLY
+      range:   < 0 ; 4294967295 >
+ addr:    0x4809B96C
+}
+
+    xilapi_eesport_trigger_uint32_T
+    {
+      type:    uint(32)
+      alias:   "Trigger"
+      flags:   OUTPUT|READONLY
+      range:   < 0 ; 4294967295 >
+ addr:    0x4809B968
+}
+
+    endgroup -- "EESPort"
+
+endgroup -- "XILAPI"
+
+
+
+-- ******** [EOF] *************************************************************
+

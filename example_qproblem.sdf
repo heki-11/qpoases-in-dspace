@@ -1,0 +1,15 @@
+[System]
+Version=2.2
+SystemType=SingleProcessorSystem
+DAQService=DsDAQ
+DsDAQBackground=1
+Status=Start
+File=example_qproblem.rta
+RTP=Master
+
+[Master]
+Type=DS1007
+State=Enabled
+ServiceID=1
+TraceFile=example_qproblem.trc
+ID=6714A98E-D4B1-449E-9CBD-3598D4C889C2

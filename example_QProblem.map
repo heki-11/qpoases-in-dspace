@@ -1,0 +1,1858 @@
+<*GNU-Linker-generated-mapfile*> 
+Archive member included to satisfy reference by file (symbol)
+
+C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librtversion.a(RtVersion.o)
+                              (--whole-archive)
+C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librtglobals.a(DsEESPort.o)
+                              (--whole-archive)
+C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libm_fastpow.a(w_pow.o)
+                              C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt1007.so (pow)
+C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libm_fastpow.a(e_pow.o)
+                              C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libm_fastpow.a(w_pow.o) (__ieee754_pow)
+C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libm_fastpow.a(s_scalbn.o)
+                              C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libm_fastpow.a(e_pow.o) (scalbn)
+
+As-needed library included to satisfy reference by file (symbol)
+
+libDsRealTimeTestingRP.so.1   rti_sim_engine.m07 (dsrtt_script_service_pre_computation)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 SQProblem.cppm07
+ .group         0x0000000000000000        0x8 SQProblem.cppm07
+ .group         0x0000000000000000        0x8 SQProblem.cppm07
+ .group         0x0000000000000000        0x8 QProblem.cppm07
+ .group         0x0000000000000000        0x8 QProblem.cppm07
+ .group         0x0000000000000000        0x8 QProblem.cppm07
+ .group         0x0000000000000000        0x8 QProblem.cppm07
+ .group         0x0000000000000000        0x8 QProblemB.cppm07
+ .group         0x0000000000000000        0x8 QProblemB.cppm07
+ .group         0x0000000000000000        0x8 QProblemB.cppm07
+ .group         0x0000000000000000        0x8 Bounds.cppm07
+ .group         0x0000000000000000        0x8 Bounds.cppm07
+ .group         0x0000000000000000        0x8 Bounds.cppm07
+ .group         0x0000000000000000        0x8 Constraints.cppm07
+ .group         0x0000000000000000        0x8 Constraints.cppm07
+ .group         0x0000000000000000        0x8 Constraints.cppm07
+ .group         0x0000000000000000        0x8 SubjectTo.cppm07
+ .group         0x0000000000000000        0x8 SubjectTo.cppm07
+ .group         0x0000000000000000        0x8 SubjectTo.cppm07
+ .group         0x0000000000000000        0x8 Matrices.cppm07
+ .group         0x0000000000000000        0x8 Matrices.cppm07
+ .group         0x0000000000000000        0x8 Matrices.cppm07
+ .group         0x0000000000000000        0x8 Matrices.cppm07
+ .group         0x0000000000000000        0x8 Matrices.cppm07
+ .group         0x0000000000000000        0x8 Matrices.cppm07
+ .group         0x0000000000000000        0x8 Matrices.cppm07
+ .group         0x0000000000000000        0x8 Matrices.cppm07
+ .group         0x0000000000000000        0x8 Matrices.cppm07
+ .group         0x0000000000000000        0x8 Matrices.cppm07
+ .group         0x0000000000000000        0x8 Matrices.cppm07
+ .group         0x0000000000000000        0x8 Matrices.cppm07
+ .group         0x0000000000000000        0x8 Matrices.cppm07
+ .group         0x0000000000000000        0x8 Matrices.cppm07
+ .group         0x0000000000000000        0x8 Matrices.cppm07
+ .group         0x0000000000000000        0x8 Matrices.cppm07
+ .group         0x0000000000000000        0x8 Matrices.cppm07
+ .group         0x0000000000000000        0x8 Matrices.cppm07
+ .group         0x0000000000000000        0x8 Matrices.cppm07
+ .group         0x0000000000000000        0xc Matrices.cppm07
+ .group         0x0000000000000000       0x14 Matrices.cppm07
+ .group         0x0000000000000000        0xc Matrices.cppm07
+ .group         0x0000000000000000        0xc Matrices.cppm07
+ .group         0x0000000000000000       0x14 Matrices.cppm07
+ .text._ZN12SymSparseMatD0Ev
+                0x0000000000000000       0x78 Matrices.cppm07
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+LOAD C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crti.o
+LOAD c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0/crtbegin.o
+                0x0000000000000000                _DSPACE_START = 0x0
+                0x0000000000000000                _DSPACE_START_ = 0x0
+                0x00000000000003ef                DS_TARGET_PLATFORM = 0x3ef
+START GROUP
+LOAD SQProblem.cppm07
+LOAD QProblem.cppm07
+LOAD QProblemB.cppm07
+LOAD Bounds.cppm07
+LOAD Constraints.cppm07
+LOAD SubjectTo.cppm07
+LOAD Indexlist.cppm07
+LOAD Flipper.cppm07
+LOAD Utils.cppm07
+LOAD Options.cppm07
+LOAD Matrices.cppm07
+LOAD BLASReplacement.cppm07
+LOAD LAPACKReplacement.cppm07
+LOAD MessageHandling.cppm07
+LOAD example_QProblem.m07
+LOAD rt_matrx.m07
+LOAD rt_printf.m07
+LOAD example_QProblem_data.m07
+LOAD example_QProblem_trc_ptr.m07
+LOAD rtGetInf.m07
+LOAD rtGetNaN.m07
+LOAD rt_nonfinite.m07
+LOAD qpOASES_QProblem.cppm07
+LOAD rti_sim_engine.m07
+LOAD rti_init_cpp.m07
+LOAD rt_sim.m07
+LOAD rti_assert.m07
+LOAD Handcode_FPGA_Inverter_53A2F2A927216E.m07
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librtcan.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librteth.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librtfr.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librtlin.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librtrpcu.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librtser.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librtj1939.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt2001.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt2002.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt2003.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt2004.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt2101.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt2102.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt2103.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt2201.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt22xx.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt2301.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt2302.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt2401.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt3001.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt3002.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt4001.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt4002.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt4003.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt4004.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt4101.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt4120.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt4121.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt4201.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt4201s.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt4301.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt4302.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt4330.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt4501.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt4505.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt5001.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt5101.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt5201.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt5202.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt5203.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librt1007.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librtwrap.so
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librtversion.a
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librtglobals.a
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libm_fastpow.a
+END GROUP
+LOAD C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libstdc++.so
+LOAD C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/libm.so
+LOAD c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0\libgcc.a
+LOAD C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/libc.so
+LOAD C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib\libc.a
+LOAD c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0\libgcc.a
+LOAD c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0/crtend.o
+LOAD C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crtn.o
+                [!provide]                        PROVIDE (__stack, 0x0)
+                [!provide]                        PROVIDE (___stack, 0x0)
+                [!provide]                        PROVIDE (__executable_start, 0x48040000)
+                0x0000000048040134                . = (0x48040000 + SIZEOF_HEADERS)
+
+.interp         0x0000000048040134       0x14
+ *(.interp)
+ .interp        0x0000000048040134       0x14 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+
+.note           0x0000000048040150       0x18
+ .note          0x0000000048040150       0x18 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crtn.o
+
+.note.gnu.build-id
+                0x0000000048040168       0x20
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000048040168       0x20 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+
+.hash           0x0000000048040188      0x334
+ *(.hash)
+ .hash          0x0000000048040188      0x334 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym         0x00000000480404bc      0x6a0
+ *(.dynsym)
+ .dynsym        0x00000000480404bc      0x6a0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+
+.dynstr         0x0000000048040b5c      0x97e
+ *(.dynstr)
+ .dynstr        0x0000000048040b5c      0x97e C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+
+.gnu.version    0x00000000480414da        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000480414da        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+
+.gnu.version_d  0x00000000480414dc        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+
+.gnu.version_r  0x00000000480414dc        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+
+.rel.dyn
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ *(.rel.sdata .rel.sdata.* .rel.gnu.linkonce.s.*)
+ *(.rel.sbss .rel.sbss.* .rel.gnu.linkonce.sb.*)
+ *(.rel.sdata2 .rel.sdata2.* .rel.gnu.linkonce.s2.*)
+ *(.rel.sbss2 .rel.sbss2.* .rel.gnu.linkonce.sb2.*)
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+
+.rela.dyn       0x00000000480414dc       0xc0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.text._ZN12SymSparseMatD0Ev
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.text._ZN11SymDenseMatD1Ev
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.text._ZN11SymDenseMatD0Ev
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.text._ZN12SymSparseMatD1Ev
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.text.startup
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ .rela.rodata._ZTI9SQProblem
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTV9SQProblem
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTI8QProblem
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTV8QProblem
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTI9QProblemB
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTV9QProblemB
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTI6Bounds
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTV6Bounds
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTI11Constraints
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTV11Constraints
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTI9SubjectTo
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTV9SubjectTo
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTI6Matrix
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTI15SymmetricMatrix
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTI11DenseMatrix
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTI11SymDenseMat
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTI12SparseMatrix
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTI15SparseMatrixRow
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTI12SymSparseMat
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTV6Matrix
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTT11DenseMatrix
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTV11DenseMatrix
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTC11SymDenseMat20_15SymmetricMatrix
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTC11SymDenseMat0_11DenseMatrix
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTT11SymDenseMat
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTV11SymDenseMat
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTT12SparseMatrix
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTV12SparseMatrix
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTT15SparseMatrixRow
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTV15SparseMatrixRow
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTC12SymSparseMat4_12SparseMatrix
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTC12SymSparseMat0_15SymmetricMatrix
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTT12SymSparseMat
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata._ZTV12SymSparseMat
+                0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.rodata   0x00000000480414dc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data     0x00000000480414dc        0xc C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x00000000480414e8       0x48 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ *(.rela.got1)
+ *(.rela.got2)
+ *(.rela.sdata .rela.sdata.* .rela.gnu.linkonce.s.*)
+ *(.rela.sbss .rela.sbss.* .rela.gnu.linkonce.sb.*)
+ .rela.sbss     0x0000000048041530        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ *(.rela.sdata2 .rela.sdata2.* .rela.gnu.linkonce.s2.*)
+ *(.rela.sbss2 .rela.sbss2.* .rela.gnu.linkonce.sb2.*)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ .rela.bss      0x0000000048041530       0x6c C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.iplt     0x000000004804159c        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .rela.eh_frame
+                0x000000004804159c        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt       0x000000004804159c      0x3b4
+ *(.rela.plt)
+ .rela.plt      0x000000004804159c      0x3b4 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+
+.init           0x0000000048041950       0x24
+ *(.init)
+ .init          0x0000000048041950        0xc C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crti.o
+                0x0000000048041950                _init
+ .init          0x000000004804195c        0x4 c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0/crtbegin.o
+ .init          0x0000000048041960        0x4 c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0/crtend.o
+ .init          0x0000000048041964       0x10 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crtn.o
+
+.text           0x0000000048041980    0x3025c
+                0x0000000048041980                _btext = .
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000048041980      0x118 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+                0x0000000048041980                _start
+ .text          0x0000000048041a98        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crti.o
+ .text          0x0000000048041a98      0x2b0 c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0/crtbegin.o
+ *fill*         0x0000000048041d48        0x8 00000000
+ .text          0x0000000048041d50     0x1854 SQProblem.cppm07
+                0x0000000048041d50                SQProblem::~SQProblem()
+                0x0000000048041d50                SQProblem::~SQProblem()
+                0x0000000048041d60                SQProblem::~SQProblem()
+                0x0000000048041da0                SQProblem::operator=(SQProblem const&)
+                0x0000000048041de0                SQProblem::setupNewAuxiliaryQP(double const*, double const*, double const*, double const*, double const*, double const*)
+                0x0000000048042100                SQProblem::SQProblem()
+                0x0000000048042100                SQProblem::SQProblem()
+                0x0000000048042140                SQProblem::SQProblem(int, int, HessianType, BooleanType)
+                0x0000000048042140                SQProblem::SQProblem(int, int, HessianType, BooleanType)
+                0x0000000048042180                SQProblem::SQProblem(SQProblem const&)
+                0x0000000048042180                SQProblem::SQProblem(SQProblem const&)
+                0x00000000480421c0                SQProblem::hotstart(SymmetricMatrix*, double const*, Matrix*, double const*, double const*, double const*, double const*, int&, double*, Bounds const*, Constraints const*)
+                0x0000000048042460                SQProblem::hotstart(double const*, double const*, double const*, double const*, double const*, double const*, double const*, int&, double*, Bounds const*, Constraints const*)
+                0x0000000048042700                SQProblem::hotstart(char const*, char const*, char const*, char const*, char const*, char const*, char const*, int&, double*, Bounds const*, Constraints const*)
+                0x0000000048042c40                SQProblem::hotstart(double const*, double const*, double const*, double const*, double const*, int&, double*, Bounds const*, Constraints const*)
+                0x0000000048042c50                SQProblem::hotstart(char const*, char const*, char const*, char const*, char const*, int&, double*, Bounds const*, Constraints const*)
+                0x0000000048042c60                SQProblem::setupNewAuxiliaryQP(SymmetricMatrix*, Matrix*, double const*, double const*, double const*, double const*)
+ *fill*         0x00000000480435a4        0xc 00000000
+ .text          0x00000000480435b0    0x10c0c QProblem.cppm07
+                0x00000000480435b0                QProblem::getNZ() const
+                0x00000000480435c0                QProblem::getDualSolution(double*) const
+                0x0000000048043640                QProblem::printProperties()
+                0x0000000048043650                QProblem::setupSubjectToType()
+                0x0000000048043670                QProblem::backsolveT(double const*, BooleanType, double*) const
+                0x00000000480438d0                QProblem::setupTQfactorisation()
+                0x00000000480439d0                QProblem::getWorkingSet(double*)
+                0x0000000048043a90                QProblem::setupInitialCholesky()
+                0x0000000048043be0                QProblem::addConstraint_checkLI(int)
+                0x00000000480440d0                QProblem::addBound_checkLI(int)
+                0x00000000480444d0                QProblem::getWorkingSetConstraints(double*)
+                0x00000000480445b0                QProblem::updateActivitiesForHotstart(double const*, double const*, double const*, double const*)
+                0x00000000480449b0                QProblem::determineStepDirection(double const*, double const*, double const*, double const*, double const*, BooleanType, BooleanType, double*, double*, double*, double*)
+                0x0000000048045c80                QProblem::setupSubjectToType(double const*, double const*, double const*, double const*)
+                0x0000000048046100                QProblem::computeProjectedCholesky()
+                0x00000000480465c0                QProblem::setupAuxiliaryWorkingSet(Bounds const*, Constraints const*, BooleanType)
+                0x0000000048046ff0                QProblem::addBound(int, SubjectToStatus, BooleanType, BooleanType)
+                0x0000000048047a30                QProblem::addConstraint(int, SubjectToStatus, BooleanType, BooleanType)
+                0x0000000048048280                QProblem::QProblem()
+                0x0000000048048280                QProblem::QProblem()
+                0x0000000048048330                QProblem::solveCurrentEQP(int, double const*, double const*, double const*, double const*, double const*, double*, double*)
+                0x0000000048048710                QProblem::setConstraintProduct(ConstraintProduct*)
+                0x0000000048048720                QProblem::getFreeVariablesFlags(BooleanType*)
+                0x00000000480487d0                QProblem::clear()
+                0x00000000480489a0                QProblem::copy(QProblem const&)
+                0x0000000048048f50                QProblem::operator=(QProblem const&)
+                0x0000000048048fb0                QProblem::obtainAuxiliaryWorkingSet(double const*, double const*, Bounds const*, Constraints const*, Bounds*, Constraints*) const
+                0x0000000048049530                QProblem::setupAuxiliaryQPsolution(double const*, double const*)
+                0x0000000048049790                QProblem::setupAuxiliaryQPgradient()
+                0x0000000048049980                QProblem::performRamping()
+                0x0000000048049e70                QProblem::performDriftCorrection()
+                0x000000004804a250                QProblem::areBoundsConsistent(double const*, double const*, double const*, double const*) const
+                0x000000004804a330                QProblem::setupAuxiliaryQPbounds(Bounds const*, Constraints const*, BooleanType)
+                0x000000004804a8d0                QProblem::performPlainRatioTest(int, int const*, double const*, double const*, double, double, double&, int&) const
+                0x000000004804a950                QProblem::ensureNonzeroCurvature(BooleanType, int, BooleanType&, BooleanType&, int&, SubjectToStatus&)
+                0x000000004804b7e0                QProblem::removeBound(int, BooleanType, BooleanType, BooleanType)
+                0x000000004804c2d0                QProblem::removeConstraint(int, BooleanType, BooleanType, BooleanType)
+                0x000000004804ce30                QProblem::determineDataShift(double const*, double const*, double const*, double const*, double const*, double*, double*, double*, double*, double*, BooleanType&, BooleanType&)
+                0x000000004804d090                QProblem::performStep(double const*, double const*, double const*, double const*, double const*, double const*, double const*, double const*, double const*, int&, SubjectToStatus&, BooleanType&)
+                0x000000004804de10                QProblem::changeActiveSet(int, SubjectToStatus, BooleanType)
+                0x000000004804e000                QProblem::getRelativeHomotopyLength(double const*, double const*, double const*, double const*, double const*)
+                0x000000004804e140                QProblem::solveQP(double const*, double const*, double const*, double const*, double const*, int&, double*, int, BooleanType)
+                0x000000004804ead0                QProblem::solveRegularisedQP(double const*, double const*, double const*, double const*, double const*, int&, double*, int, BooleanType)
+                0x000000004804ee30                QProblem::updateFarBounds(double, int, double const*, double*, double const*, double*, double const*, double*, double const*, double*) const
+                0x000000004804f040                QProblem::hotstart(double const*, double const*, double const*, double const*, double const*, int&, double*, Bounds const*, Constraints const*)
+                0x000000004804f880                QProblem::shallRefactorise(Bounds const*, Constraints const*) const
+                0x000000004804f9c0                QProblem::setupAuxiliaryQP(Bounds const*, Constraints const*)
+                0x000000004804ff20                QProblem::setupQPdata(SymmetricMatrix*, double const*, Matrix*, double const*, double const*, double const*, double const*)
+                0x0000000048050350                QProblem::setupQPdata(double const*, double const*, double const*, double const*, double const*, double const*, double const*)
+                0x0000000048050700                QProblem::setupQPdataFromFile(char const*, char const*, char const*, char const*, char const*, char const*, char const*)
+                0x0000000048050b10                QProblem::loadQPvectorsFromFile(char const*, char const*, char const*, char const*, char const*, double*, double*, double*, double*, double*) const
+                0x0000000048050d40                QProblem::hotstart(char const*, char const*, char const*, char const*, char const*, int&, double*, Bounds const*, Constraints const*)
+                0x0000000048051180                QProblem::printIteration(int, int, SubjectToStatus, BooleanType, double, BooleanType)
+                0x0000000048051190                QProblem::dropInfeasibles(int, SubjectToStatus, BooleanType, double*, double*)
+                0x00000000480516c0                QProblem::addConstraint_ensureLI(int, SubjectToStatus)
+                0x0000000048051f70                QProblem::addBound_ensureLI(int, SubjectToStatus)
+                0x0000000048052750                QProblem::writeQpDataIntoMatFile(char const*) const
+                0x0000000048052760                QProblem::writeQpWorkspaceIntoMatFile(char const*)
+                0x0000000048052770                QProblem::QProblem(int, int, HessianType, BooleanType)
+                0x0000000048052770                QProblem::QProblem(int, int, HessianType, BooleanType)
+                0x0000000048052b90                QProblem::QProblem(QProblem const&)
+                0x0000000048052b90                QProblem::QProblem(QProblem const&)
+                0x0000000048052c30                QProblem::~QProblem()
+                0x0000000048052c30                QProblem::~QProblem()
+                0x0000000048052c80                QProblem::~QProblem()
+                0x0000000048052cb0                QProblem::reset()
+                0x0000000048052e40                QProblem::getWorkingSetBounds(double*)
+                0x0000000048052e50                QProblem::solveInitialQP(double const*, double const*, Bounds const*, Constraints const*, double const*, int&, double*)
+                0x0000000048053590                QProblem::init(SymmetricMatrix*, double const*, Matrix*, double const*, double const*, double const*, double const*, int&, double*, double const*, double const*, Bounds const*, Constraints const*, double const*)
+                0x0000000048053950                QProblem::init(double const*, double const*, double const*, double const*, double const*, double const*, double const*, int&, double*, double const*, double const*, Bounds const*, Constraints const*, double const*)
+                0x0000000048053d10                QProblem::init(char const*, char const*, char const*, char const*, char const*, char const*, char const*, int&, double*, double const*, double const*, Bounds const*, Constraints const*, char const*)
+ *fill*         0x00000000480541bc        0x4 00000000
+ .text._ZN12SymSparseMatD0Ev
+                0x00000000480541c0       0x98 QProblem.cppm07
+                0x00000000480541c0                SymSparseMat::~SymSparseMat()
+                0x0000000048054240                virtual thunk to SymSparseMat::~SymSparseMat()
+                0x0000000048054250                non-virtual thunk to SymSparseMat::~SymSparseMat()
+ *fill*         0x0000000048054258        0x8 00000000
+ .text          0x0000000048054260     0x8878 QProblemB.cppm07
+                0x0000000048054260                QProblemB::getWorkingSet(double*)
+                0x0000000048054270                QProblemB::getNZ() const
+                0x0000000048054280                QProblemB::getDualSolution(double*) const
+                0x0000000048054300                QProblemB::printProperties()
+                0x0000000048054310                QProblemB::setupSubjectToType()
+                0x0000000048054330                QProblemB::backsolveR(double const*, BooleanType, double*) const
+                0x0000000048054350                QProblemB::reset()
+                0x0000000048054470                QProblemB::computeCholesky()
+                0x00000000480547a0                QProblemB::getWorkingSetConstraints(double*)
+                0x00000000480549c0                QProblemB::setupInitialCholesky()
+                0x0000000048054b20                QProblemB::backsolveR(double const*, BooleanType, BooleanType, double*) const
+                0x0000000048054db0                QProblemB::getWorkingSetBounds(double*)
+                0x0000000048054e90                QProblemB::setupSubjectToType(double const*, double const*)
+                0x0000000048055240                QProblemB::getObjVal(double const*) const
+                0x00000000480554c0                QProblemB::getObjVal() const
+                0x0000000048055500                QProblemB::getPrimalSolution(double*) const
+                0x0000000048055570                QProblemB::setPrintLevel(PrintLevel)
+                0x00000000480555c0                QProblemB::printOptions() const
+                0x00000000480555d0                QProblemB::clear()
+                0x00000000480556f0                QProblemB::copy(QProblemB const&)
+                0x0000000048055bb0                QProblemB::operator=(QProblemB const&)
+                0x0000000048055c00                QProblemB::determineHessianType()
+                0x0000000048055ea0                QProblemB::obtainAuxiliaryWorkingSet(double const*, double const*, Bounds const*, Bounds*) const
+                0x00000000480563f0                QProblemB::determineDataShift(double const*, double const*, double const*, double*, double*, double*, BooleanType&)
+                0x0000000048056680                QProblemB::setupQPdata(SymmetricMatrix*, double const*, double const*, double const*)
+                0x0000000048056910                QProblemB::setupQPdata(double const*, double const*, double const*, double const*)
+                0x0000000048056c80                QProblemB::setupQPdataFromFile(char const*, char const*, char const*, char const*)
+                0x0000000048057010                QProblemB::loadQPvectorsFromFile(char const*, char const*, char const*, double*, double*, double*) const
+                0x0000000048057210                QProblemB::setInfeasibilityFlag(returnValue, BooleanType)
+                0x0000000048057260                QProblemB::areBoundsConsistent(double const*, double const*) const
+                0x00000000480572e0                QProblemB::isCPUtimeLimitExceeded(double const*, double, int) const
+                0x0000000048057390                QProblemB::regulariseHessian()
+                0x00000000480573b0                QProblemB::createDiagSparseMat(int, double)
+                0x0000000048057560                QProblemB::performRatioTest(int, int const*, SubjectTo const*, double const*, double const*, double, double, double&, int&) const
+                0x0000000048057670                QProblemB::getRelativeHomotopyLength(double const*, double const*, double const*)
+                0x00000000480577c0                QProblemB::updateFarBounds(double, int, double const*, double*, double const*, double*) const
+                0x0000000048057950                QProblemB::setupAuxiliaryQPsolution(double const*, double const*)
+                0x0000000048057ac0                QProblemB::setupAuxiliaryQPgradient()
+                0x0000000048057c70                QProblemB::performRamping()
+                0x0000000048057f50                QProblemB::performDriftCorrection()
+                0x00000000480580e0                QProblemB::setupAuxiliaryQPbounds(BooleanType)
+                0x0000000048058340                QProblemB::determineStepDirection(double const*, double const*, double const*, BooleanType, double*, double*, double*)
+                0x0000000048058a00                QProblemB::performStep(double const*, double const*, double const*, double const*, double const*, double const*, int&, SubjectToStatus&)
+                0x0000000048058ed0                QProblemB::shallRefactorise(Bounds const*) const
+                0x0000000048058f90                QProblemB::addBound(int, SubjectToStatus, BooleanType)
+                0x00000000480593b0                QProblemB::removeBound(int, BooleanType)
+                0x0000000048059a10                QProblemB::setupAuxiliaryWorkingSet(Bounds const*, BooleanType)
+                0x0000000048059d70                QProblemB::setupAuxiliaryQP(Bounds const*)
+                0x000000004805a030                QProblemB::changeActiveSet(int, SubjectToStatus)
+                0x000000004805a160                QProblemB::solveQP(double const*, double const*, double const*, int&, double*, int, BooleanType)
+                0x000000004805a9b0                QProblemB::solveRegularisedQP(double const*, double const*, double const*, int&, double*, int, BooleanType)
+                0x000000004805acc0                QProblemB::hotstart(double const*, double const*, double const*, int&, double*, Bounds const*)
+                0x000000004805b2b0                QProblemB::hotstart(char const*, char const*, char const*, int&, double*, Bounds const*)
+                0x000000004805b5b0                QProblemB::printIteration(int, int, SubjectToStatus, double, BooleanType)
+                0x000000004805b5c0                QProblemB::QProblemB()
+                0x000000004805b5c0                QProblemB::QProblemB()
+                0x000000004805b6f0                QProblemB::QProblemB(int, HessianType, BooleanType)
+                0x000000004805b6f0                QProblemB::QProblemB(int, HessianType, BooleanType)
+                0x000000004805ba30                QProblemB::QProblemB(QProblemB const&)
+                0x000000004805ba30                QProblemB::QProblemB(QProblemB const&)
+                0x000000004805bb00                QProblemB::~QProblemB()
+                0x000000004805bb00                QProblemB::~QProblemB()
+                0x000000004805bb60                QProblemB::~QProblemB()
+                0x000000004805bb90                QProblemB::solveInitialQP(double const*, double const*, Bounds const*, double const*, int&, double*)
+                0x000000004805c160                QProblemB::init(SymmetricMatrix*, double const*, double const*, double const*, int&, double*, double const*, double const*, Bounds const*, double const*)
+                0x000000004805c440                QProblemB::init(double const*, double const*, double const*, double const*, int&, double*, double const*, double const*, Bounds const*, double const*)
+                0x000000004805c720                QProblemB::init(char const*, char const*, char const*, char const*, int&, double*, double const*, double const*, Bounds const*, char const*)
+ *fill*         0x000000004805cad8        0x8 00000000
+ .text          0x000000004805cae0     0x15e8 Bounds.cppm07
+                0x000000004805cae0                Bounds::~Bounds()
+                0x000000004805cae0                Bounds::~Bounds()
+                0x000000004805cb30                Bounds::~Bounds()
+                0x000000004805cb60                Bounds::shift(int)
+                0x000000004805d020                Bounds::rotate(int)
+                0x000000004805d5c0                Bounds::Bounds()
+                0x000000004805d5c0                Bounds::Bounds()
+                0x000000004805d650                Bounds::Bounds(Bounds const&)
+                0x000000004805d650                Bounds::Bounds(Bounds const&)
+                0x000000004805d710                Bounds::operator=(Bounds const&)
+                0x000000004805d770                Bounds::init(int)
+                0x000000004805d810                Bounds::Bounds(int)
+                0x000000004805d810                Bounds::Bounds(int)
+                0x000000004805d8d0                Bounds::setupBound(int, SubjectToStatus)
+                0x000000004805da40                Bounds::moveFixedToFree(int)
+                0x000000004805db50                Bounds::moveFreeToFixed(int, SubjectToStatus)
+                0x000000004805dc60                Bounds::flipFixed(int)
+                0x000000004805dd60                Bounds::swapFree(int, int)
+                0x000000004805ddf0                Bounds::print()
+                0x000000004805de00                Bounds::clear()
+                0x000000004805de10                Bounds::copy(Bounds const&)
+                0x000000004805de60                Bounds::setupAll(SubjectToStatus)
+                0x000000004805e0a0                Bounds::setupAllFree()
+                0x000000004805e0b0                Bounds::setupAllLower()
+                0x000000004805e0c0                Bounds::setupAllUpper()
+ *fill*         0x000000004805e0c8        0x8 00000000
+ .text          0x000000004805e0d0     0x1558 Constraints.cppm07
+                0x000000004805e0d0                Constraints::~Constraints()
+                0x000000004805e0d0                Constraints::~Constraints()
+                0x000000004805e120                Constraints::~Constraints()
+                0x000000004805e150                Constraints::shift(int)
+                0x000000004805e610                Constraints::rotate(int)
+                0x000000004805ebb0                Constraints::Constraints()
+                0x000000004805ebb0                Constraints::Constraints()
+                0x000000004805ec40                Constraints::Constraints(Constraints const&)
+                0x000000004805ec40                Constraints::Constraints(Constraints const&)
+                0x000000004805ed00                Constraints::operator=(Constraints const&)
+                0x000000004805ed60                Constraints::init(int)
+                0x000000004805ee00                Constraints::Constraints(int)
+                0x000000004805ee00                Constraints::Constraints(int)
+                0x000000004805eec0                Constraints::setupConstraint(int, SubjectToStatus)
+                0x000000004805f030                Constraints::moveActiveToInactive(int)
+                0x000000004805f140                Constraints::moveInactiveToActive(int, SubjectToStatus)
+                0x000000004805f250                Constraints::flipFixed(int)
+                0x000000004805f350                Constraints::print()
+                0x000000004805f360                Constraints::clear()
+                0x000000004805f370                Constraints::copy(Constraints const&)
+                0x000000004805f3c0                Constraints::setupAll(SubjectToStatus)
+                0x000000004805f600                Constraints::setupAllInactive()
+                0x000000004805f610                Constraints::setupAllLower()
+                0x000000004805f620                Constraints::setupAllUpper()
+ *fill*         0x000000004805f628        0x8 00000000
+ .text          0x000000004805f630      0x700 SubjectTo.cppm07
+                0x000000004805f630                SubjectTo::clear()
+                0x000000004805f690                SubjectTo::~SubjectTo()
+                0x000000004805f690                SubjectTo::~SubjectTo()
+                0x000000004805f6a0                SubjectTo::~SubjectTo()
+                0x000000004805f6e0                SubjectTo::init(int)
+                0x000000004805f810                SubjectTo::SubjectTo(int)
+                0x000000004805f810                SubjectTo::SubjectTo(int)
+                0x000000004805f830                SubjectTo::SubjectTo()
+                0x000000004805f830                SubjectTo::SubjectTo()
+                0x000000004805f890                SubjectTo::copy(SubjectTo const&)
+                0x000000004805f9a0                SubjectTo::SubjectTo(SubjectTo const&)
+                0x000000004805f9a0                SubjectTo::SubjectTo(SubjectTo const&)
+                0x000000004805f9b0                SubjectTo::operator=(SubjectTo const&)
+                0x000000004805fa00                SubjectTo::addIndex(Indexlist*, int, SubjectToStatus)
+                0x000000004805fb20                SubjectTo::removeIndex(Indexlist*, int)
+                0x000000004805fc00                SubjectTo::swapIndex(Indexlist*, int, int)
+ .text          0x000000004805fd30      0x804 Indexlist.cppm07
+                0x000000004805fd30                Indexlist::getNumberArray(int**) const
+                0x000000004805fd90                Indexlist::getISortArray(int**) const
+                0x000000004805fda0                Indexlist::clear()
+                0x000000004805fe00                Indexlist::~Indexlist()
+                0x000000004805fe00                Indexlist::~Indexlist()
+                0x000000004805fe10                Indexlist::init(int)
+                0x000000004805fef0                Indexlist::Indexlist(int)
+                0x000000004805fef0                Indexlist::Indexlist(int)
+                0x000000004805ff00                Indexlist::Indexlist()
+                0x000000004805ff00                Indexlist::Indexlist()
+                0x000000004805ff50                Indexlist::copy(Indexlist const&)
+                0x0000000048060070                Indexlist::Indexlist(Indexlist const&)
+                0x0000000048060070                Indexlist::Indexlist(Indexlist const&)
+                0x0000000048060080                Indexlist::operator=(Indexlist const&)
+                0x00000000480600d0                Indexlist::findInsert(int) const
+                0x0000000048060180                Indexlist::getIndex(int) const
+                0x00000000480601e0                Indexlist::addNumber(int)
+                0x00000000480602c0                Indexlist::removeNumber(int)
+                0x0000000048060420                Indexlist::swapNumbers(int, int)
+ *fill*         0x0000000048060534        0xc 00000000
+ .text          0x0000000048060540      0x668 Flipper.cppm07
+                0x0000000048060540                Flipper::get(Bounds*, double*, Constraints*, double*, double*) const
+                0x0000000048060660                Flipper::set(Bounds const*, double const*, Constraints const*, double const*, double const*)
+                0x0000000048060820                Flipper::clear()
+                0x00000000480608b0                Flipper::init(unsigned int, unsigned int)
+                0x0000000048060900                Flipper::operator=(Flipper const&)
+                0x0000000048060960                Flipper::copy(Flipper const&)
+                0x0000000048060980                Flipper::getDimT() const
+                0x00000000480609b0                Flipper::Flipper()
+                0x00000000480609b0                Flipper::Flipper()
+                0x0000000048060a30                Flipper::Flipper(unsigned int, unsigned int)
+                0x0000000048060a30                Flipper::Flipper(unsigned int, unsigned int)
+                0x0000000048060ac0                Flipper::Flipper(Flipper const&)
+                0x0000000048060ac0                Flipper::Flipper(Flipper const&)
+                0x0000000048060b70                Flipper::~Flipper()
+                0x0000000048060b70                Flipper::~Flipper()
+ *fill*         0x0000000048060ba8        0x8 00000000
+ .text          0x0000000048060bb0      0xd14 Utils.cppm07
+                0x0000000048060bb0                print(double const*, int, char const*)
+                0x0000000048060bc0                print(double const*, int, int const*, char const*)
+                0x0000000048060bd0                print(double const*, int, int, char const*)
+                0x0000000048060be0                print(double const*, int, int, int const*, int const*, char const*)
+                0x0000000048060bf0                print(int const*, int, char const*)
+                0x0000000048060c00                myPrintf(char const*)
+                0x0000000048060c10                printCopyrightNotice()
+                0x0000000048060c20                readFromFile(double*, int, int, char const*)
+                0x0000000048060c30                readFromFile(double*, int, char const*)
+                0x0000000048060c40                readFromFile(int*, int, char const*)
+                0x0000000048060c50                writeIntoFile(double const*, int, int, char const*, BooleanType)
+                0x0000000048060c60                writeIntoFile(double const*, int, char const*, BooleanType)
+                0x0000000048060c70                writeIntoFile(int const*, int, char const*, BooleanType)
+                0x0000000048060c80                writeIntoMatFile(_Filet*, double const*, int, int, char const*)
+                0x0000000048060c90                writeIntoMatFile(_Filet*, int const*, int, int, char const*)
+                0x0000000048060d90                getCPUtime()
+                0x0000000048060da0                getNorm(double const*, int, int)
+                0x0000000048060ea0                getKktViolation(int, int, double const*, double const*, double const*, double const*, double const*, double const*, double const*, double const*, double const*, double&, double&, double&, double const*, double const*, BooleanType)
+                0x0000000048061440                getKktViolation(int, double const*, double const*, double const*, double const*, double const*, double const*, double&, double&, double&, double const*, BooleanType)
+                0x00000000480614c0                convertBooleanTypeToString(BooleanType, char*)
+                0x00000000480614d0                convertSubjectToStatusToString(SubjectToStatus, char*)
+                0x00000000480614e0                convertPrintLevelToString(PrintLevel, char*)
+                0x00000000480614f0                getSimpleStatus(returnValue, BooleanType)
+                0x0000000048061600                normaliseConstraints(int, int, double*, double*, double*, int)
+                0x00000000480618c0                __cxa_pure_virtual
+ *fill*         0x00000000480618c4        0xc 00000000
+ .text          0x00000000480618d0      0x728 Options.cppm07
+                0x00000000480618d0                Options::~Options()
+                0x00000000480618d0                Options::~Options()
+                0x00000000480618e0                Options::setToDefault()
+                0x00000000480619f0                Options::Options()
+                0x00000000480619f0                Options::Options()
+                0x0000000048061a00                Options::setToReliable()
+                0x0000000048061a50                Options::setToFast()
+                0x0000000048061ac0                Options::setToMPC()
+                0x0000000048061ad0                Options::ensureConsistency()
+                0x0000000048061e70                Options::print() const
+                0x0000000048061e80                Options::copy(Options const&)
+                0x0000000048061fb0                Options::Options(Options const&)
+                0x0000000048061fb0                Options::Options(Options const&)
+                0x0000000048061fc0                Options::operator=(Options const&)
+ *fill*         0x0000000048061ff8        0x8 00000000
+ .text          0x0000000048062000     0xa5d8 Matrices.cppm07
+                0x0000000048062000                DenseMatrix::diag(int) const
+                0x0000000048062020                virtual thunk to DenseMatrix::diag(int) const
+                0x0000000048062030                DenseMatrix::isDiag() const
+                0x00000000480620f0                virtual thunk to DenseMatrix::isDiag() const
+                0x0000000048062100                DenseMatrix::getRow(int, Indexlist const*, double, double*) const
+                0x0000000048062370                virtual thunk to DenseMatrix::getRow(int, Indexlist const*, double, double*) const
+                0x0000000048062380                DenseMatrix::getCol(int, Indexlist const*, double, double*) const
+                0x00000000480624e0                virtual thunk to DenseMatrix::getCol(int, Indexlist const*, double, double*) const
+                0x00000000480624f0                DenseMatrix::times(Indexlist const*, Indexlist const*, int, double, double const*, int, double, double*, int, BooleanType) const
+                0x0000000048063390                virtual thunk to DenseMatrix::times(Indexlist const*, Indexlist const*, int, double, double const*, int, double, double*, int, BooleanType) const
+                0x00000000480633a0                DenseMatrix::transTimes(Indexlist const*, Indexlist const*, int, double, double const*, int, double, double*, int) const
+                0x0000000048063900                virtual thunk to DenseMatrix::transTimes(Indexlist const*, Indexlist const*, int, double, double const*, int, double, double*, int) const
+                0x0000000048063910                DenseMatrix::addToDiag(double)
+                0x0000000048063980                virtual thunk to DenseMatrix::addToDiag(double)
+                0x0000000048063990                SymDenseMat::duplicate() const
+                0x00000000480639e0                virtual thunk to SymDenseMat::duplicate() const
+                0x00000000480639f0                SparseMatrix::setVal(double const*)
+                0x0000000048063a50                SparseMatrix::isDiag() const
+                0x0000000048063af0                virtual thunk to SparseMatrix::isDiag() const
+                0x0000000048063b00                SparseMatrix::getRow(int, Indexlist const*, double, double*) const
+                0x0000000048063ef0                virtual thunk to SparseMatrix::getRow(int, Indexlist const*, double, double*) const
+                0x0000000048063f00                SparseMatrix::getCol(int, Indexlist const*, double, double*) const
+                0x00000000480641d0                virtual thunk to SparseMatrix::getCol(int, Indexlist const*, double, double*) const
+                0x00000000480641e0                SparseMatrix::times(int, double, double const*, int, double, double*, int) const
+                0x0000000048064690                virtual thunk to SparseMatrix::times(int, double, double const*, int, double, double*, int) const
+                0x00000000480646a0                SparseMatrix::transTimes(int, double, double const*, int, double, double*, int) const
+                0x0000000048064b50                virtual thunk to SparseMatrix::transTimes(int, double, double const*, int, double, double*, int) const
+                0x0000000048064b60                SparseMatrixRow::isDiag() const
+                0x0000000048064c00                virtual thunk to SparseMatrixRow::isDiag() const
+                0x0000000048064c10                SparseMatrixRow::getRow(int, Indexlist const*, double, double*) const
+                0x0000000048065080                virtual thunk to SparseMatrixRow::getRow(int, Indexlist const*, double, double*) const
+                0x0000000048065090                SparseMatrixRow::getCol(int, Indexlist const*, double, double*) const
+                0x0000000048065480                virtual thunk to SparseMatrixRow::getCol(int, Indexlist const*, double, double*) const
+                0x0000000048065490                SparseMatrixRow::times(int, double, double const*, int, double, double*, int) const
+                0x0000000048065940                virtual thunk to SparseMatrixRow::times(int, double, double const*, int, double, double*, int) const
+                0x0000000048065950                SparseMatrixRow::transTimes(int, double, double const*, int, double, double*, int) const
+                0x0000000048065e00                virtual thunk to SparseMatrixRow::transTimes(int, double, double const*, int, double, double*, int) const
+                0x0000000048065e10                SparseMatrixRow::times(Indexlist const*, Indexlist const*, int, double, double const*, int, double, double*, int, BooleanType) const
+                0x0000000048066fb0                virtual thunk to SparseMatrixRow::times(Indexlist const*, Indexlist const*, int, double, double const*, int, double, double*, int, BooleanType) const
+                0x0000000048066fc0                SparseMatrixRow::transTimes(Indexlist const*, Indexlist const*, int, double, double const*, int, double, double*, int) const
+                0x00000000480675f0                virtual thunk to SparseMatrixRow::transTimes(Indexlist const*, Indexlist const*, int, double, double const*, int, double, double*, int) const
+                0x0000000048067600                SymSparseMat::duplicate() const
+                0x0000000048067650                virtual thunk to SymSparseMat::duplicate() const
+                0x0000000048067660                non-virtual thunk to SymSparseMat::duplicate() const
+                0x0000000048067670                Matrix::getSparseSubmatrix(Indexlist const*, Indexlist const*, int, int, int&, int*, int*, double*, BooleanType) const
+                0x0000000048067750                Matrix::getSparseSubmatrix(Indexlist const*, int, int, int, int&, int*, int*, double*, BooleanType) const
+                0x0000000048067820                Matrix::getSparseSubmatrix(int, Indexlist const*, int, int, int&, int*, int*, double*, BooleanType) const
+                0x00000000480678f0                DenseMatrix::free()
+                0x0000000048067930                virtual thunk to DenseMatrix::free()
+                0x0000000048067940                DenseMatrix::~DenseMatrix()
+                0x0000000048067970                virtual thunk to DenseMatrix::~DenseMatrix()
+                0x0000000048067980                DenseMatrix::~DenseMatrix()
+                0x00000000480679b0                virtual thunk to DenseMatrix::~DenseMatrix()
+                0x00000000480679c0                SparseMatrix::free()
+                0x0000000048067a60                virtual thunk to SparseMatrix::free()
+                0x0000000048067a70                SparseMatrix::~SparseMatrix()
+                0x0000000048067af0                virtual thunk to SparseMatrix::~SparseMatrix()
+                0x0000000048067b00                SparseMatrix::~SparseMatrix()
+                0x0000000048067b30                virtual thunk to SparseMatrix::~SparseMatrix()
+                0x0000000048067b40                SparseMatrixRow::free()
+                0x0000000048067be0                virtual thunk to SparseMatrixRow::free()
+                0x0000000048067bf0                SparseMatrixRow::~SparseMatrixRow()
+                0x0000000048067c70                virtual thunk to SparseMatrixRow::~SparseMatrixRow()
+                0x0000000048067c80                SparseMatrixRow::~SparseMatrixRow()
+                0x0000000048067cb0                virtual thunk to SparseMatrixRow::~SparseMatrixRow()
+                0x0000000048067cc0                DenseMatrix::full() const
+                0x0000000048067d30                virtual thunk to DenseMatrix::full() const
+                0x0000000048067d40                SymDenseMat::bilinear(Indexlist const*, int, double const*, int, double*, int) const
+                0x0000000048067ff0                non-virtual thunk to SymDenseMat::bilinear(Indexlist const*, int, double const*, int, double*, int) const
+                0x0000000048068000                SparseMatrix::full() const
+                0x0000000048068110                virtual thunk to SparseMatrix::full() const
+                0x0000000048068120                SparseMatrixRow::full() const
+                0x0000000048068230                virtual thunk to SparseMatrixRow::full() const
+                0x0000000048068240                SparseMatrix::transTimes(Indexlist const*, Indexlist const*, int, double, double const*, int, double, double*, int) const
+                0x0000000048068600                virtual thunk to SparseMatrix::transTimes(Indexlist const*, Indexlist const*, int, double, double const*, int, double, double*, int) const
+                0x0000000048068610                SparseMatrix::times(Indexlist const*, Indexlist const*, int, double, double const*, int, double, double*, int, BooleanType) const
+                0x00000000480692f0                virtual thunk to SparseMatrix::times(Indexlist const*, Indexlist const*, int, double, double const*, int, double, double*, int, BooleanType) const
+                0x0000000048069300                DenseMatrix::duplicate() const
+                0x0000000048069440                virtual thunk to DenseMatrix::duplicate() const
+                0x0000000048069450                SymDenseMat::duplicateSym() const
+                0x0000000048069590                non-virtual thunk to SymDenseMat::duplicateSym() const
+                0x00000000480695a0                SymSparseMat::duplicateSym() const
+                0x0000000048069800                SparseMatrix::duplicate() const
+                0x0000000048069a80                virtual thunk to SparseMatrix::duplicate() const
+                0x0000000048069a90                SparseMatrixRow::duplicate() const
+                0x0000000048069d00                virtual thunk to SparseMatrixRow::duplicate() const
+                0x0000000048069d10                DenseMatrix::getNorm(int) const
+                0x0000000048069d30                virtual thunk to DenseMatrix::getNorm(int) const
+                0x0000000048069d40                DenseMatrix::getRowNorm(int, int) const
+                0x0000000048069d60                virtual thunk to DenseMatrix::getRowNorm(int, int) const
+                0x0000000048069d70                DenseMatrix::getRowNorm(double*, int) const
+                0x0000000048069e10                virtual thunk to DenseMatrix::getRowNorm(double*, int) const
+                0x0000000048069e20                SparseMatrix::getNorm(int) const
+                0x0000000048069e40                virtual thunk to SparseMatrix::getNorm(int) const
+                0x0000000048069e50                SparseMatrixRow::getNorm(int) const
+                0x0000000048069e70                virtual thunk to SparseMatrixRow::getNorm(int) const
+                0x0000000048069e80                SparseMatrixRow::getRowNorm(int, int) const
+                0x0000000048069eb0                virtual thunk to SparseMatrixRow::getRowNorm(int, int) const
+                0x0000000048069ec0                SparseMatrixRow::getRowNorm(double*, int) const
+                0x0000000048069f70                virtual thunk to SparseMatrixRow::getRowNorm(double*, int) const
+                0x0000000048069f80                DenseMatrix::writeToFile(_Filet*, char const*) const
+                0x0000000048069fc0                virtual thunk to DenseMatrix::writeToFile(_Filet*, char const*) const
+                0x0000000048069fd0                SparseMatrix::getSparseSubmatrix(int, int const*, int, int const*, int, int, int&, int*, int*, double*, BooleanType) const
+                0x000000004806a450                virtual thunk to SparseMatrix::getSparseSubmatrix(int, int const*, int, int const*, int, int, int&, int*, int*, double*, BooleanType) const
+                0x000000004806a460                SparseMatrixRow::writeToFile(_Filet*, char const*) const
+                0x000000004806a4a0                virtual thunk to SparseMatrixRow::writeToFile(_Filet*, char const*) const
+                0x000000004806a4b0                SymSparseMat::bilinear(Indexlist const*, int, double const*, int, double*, int) const
+                0x000000004806a8c0                DenseMatrix::getSparseSubmatrix(int, int const*, int, int const*, int, int, int&, int*, int*, double*, BooleanType) const
+                0x000000004806ac70                virtual thunk to DenseMatrix::getSparseSubmatrix(int, int const*, int, int const*, int, int, int&, int*, int*, double*, BooleanType) const
+                0x000000004806ac80                DenseMatrix::times(int, double, double const*, int, double, double*, int) const
+                0x000000004806ad50                virtual thunk to DenseMatrix::times(int, double, double const*, int, double, double*, int) const
+                0x000000004806ad60                DenseMatrix::transTimes(int, double, double const*, int, double, double*, int) const
+                0x000000004806ae30                virtual thunk to DenseMatrix::transTimes(int, double, double const*, int, double, double*, int) const
+                0x000000004806ae40                DenseMatrix::print(char const*) const
+                0x000000004806ae60                virtual thunk to DenseMatrix::print(char const*) const
+                0x000000004806ae70                SparseMatrix::print(char const*) const
+                0x000000004806aef0                virtual thunk to SparseMatrix::print(char const*) const
+                0x000000004806af00                SparseMatrixRow::print(char const*) const
+                0x000000004806af80                virtual thunk to SparseMatrixRow::print(char const*) const
+                0x000000004806af90                SparseMatrix::getRowNorm(int, int) const
+                0x000000004806b150                virtual thunk to SparseMatrix::getRowNorm(int, int) const
+                0x000000004806b160                SparseMatrix::getRowNorm(double*, int) const
+                0x000000004806b320                virtual thunk to SparseMatrix::getRowNorm(double*, int) const
+                0x000000004806b330                SparseMatrix::writeToFile(_Filet*, char const*) const
+                0x000000004806b4b0                virtual thunk to SparseMatrix::writeToFile(_Filet*, char const*) const
+                0x000000004806b4c0                SparseMatrixRow::getSparseSubmatrix(int, int const*, int, int const*, int, int, int&, int*, int*, double*, BooleanType) const
+                0x000000004806b520                virtual thunk to SparseMatrixRow::getSparseSubmatrix(int, int const*, int, int const*, int, int, int&, int*, int*, double*, BooleanType) const
+                0x000000004806b530                SparseMatrix::diag(int) const
+                0x000000004806b5e0                virtual thunk to SparseMatrix::diag(int) const
+                0x000000004806b5f0                SparseMatrixRow::diag(int) const
+                0x000000004806b6a0                virtual thunk to SparseMatrixRow::diag(int) const
+                0x000000004806b6b0                SparseMatrix::addToDiag(double)
+                0x000000004806b7c0                virtual thunk to SparseMatrix::addToDiag(double)
+                0x000000004806b7d0                SparseMatrixRow::addToDiag(double)
+                0x000000004806b8e0                virtual thunk to SparseMatrixRow::addToDiag(double)
+                0x000000004806b8f0                DenseMatrix::~DenseMatrix()
+                0x000000004806b930                SparseMatrix::SparseMatrix()
+                0x000000004806b970                SparseMatrix::SparseMatrix()
+                0x000000004806b9b0                SparseMatrix::SparseMatrix(int, int, int*, int*, double*)
+                0x000000004806ba00                SparseMatrix::SparseMatrix(int, int, int*, int*, double*)
+                0x000000004806ba40                SparseMatrix::SparseMatrix(int, int, int, double const*)
+                0x000000004806bbf0                SparseMatrix::SparseMatrix(int, int, int, double const*)
+                0x000000004806bdd0                SparseMatrix::~SparseMatrix()
+                0x000000004806be60                SparseMatrix::createDiagInfo()
+                0x000000004806bf90                SparseMatrixRow::SparseMatrixRow()
+                0x000000004806bfd0                SparseMatrixRow::SparseMatrixRow()
+                0x000000004806c010                SparseMatrixRow::SparseMatrixRow(int, int, int*, int*, double*)
+                0x000000004806c060                SparseMatrixRow::SparseMatrixRow(int, int, int*, int*, double*)
+                0x000000004806c0a0                SparseMatrixRow::SparseMatrixRow(int, int, int, double const*)
+                0x000000004806c250                SparseMatrixRow::SparseMatrixRow(int, int, int, double const*)
+                0x000000004806c420                SparseMatrixRow::~SparseMatrixRow()
+                0x000000004806c4b0                SparseMatrixRow::createDiagInfo()
+ *fill*         0x000000004806c5d8        0x8 00000000
+ .text._ZN11SymDenseMatD1Ev
+                0x000000004806c5e0       0x48 Matrices.cppm07
+                0x000000004806c5e0                SymDenseMat::~SymDenseMat()
+                0x000000004806c610                virtual thunk to SymDenseMat::~SymDenseMat()
+                0x000000004806c620                non-virtual thunk to SymDenseMat::~SymDenseMat()
+ *fill*         0x000000004806c628        0x8 00000000
+ .text._ZN11SymDenseMatD0Ev
+                0x000000004806c630       0x68 Matrices.cppm07
+                0x000000004806c630                SymDenseMat::~SymDenseMat()
+                0x000000004806c680                virtual thunk to SymDenseMat::~SymDenseMat()
+                0x000000004806c690                non-virtual thunk to SymDenseMat::~SymDenseMat()
+ *fill*         0x000000004806c698        0x8 00000000
+ .text._ZN12SymSparseMatD1Ev
+                0x000000004806c6a0       0x48 Matrices.cppm07
+                0x000000004806c6a0                SymSparseMat::~SymSparseMat()
+                0x000000004806c6d0                virtual thunk to SymSparseMat::~SymSparseMat()
+                0x000000004806c6e0                non-virtual thunk to SymSparseMat::~SymSparseMat()
+ *fill*         0x000000004806c6e8        0x8 00000000
+ .text          0x000000004806c6f0      0xe14 BLASReplacement.cppm07
+                0x000000004806c6f0                dgemm_
+                0x000000004806ce00                sgemm_
+ *fill*         0x000000004806d504        0xc 00000000
+ .text          0x000000004806d510      0x454 LAPACKReplacement.cppm07
+                0x000000004806d510                dpotrf_
+                0x000000004806d700                spotrf_
+                0x000000004806d8f0                dtrtrs_
+                0x000000004806d910                strtrs_
+                0x000000004806d930                dtrcon_
+                0x000000004806d950                strcon_
+ *fill*         0x000000004806d964        0xc 00000000
+ .text          0x000000004806d970      0x1bc MessageHandling.cppm07
+                0x000000004806d970                MessageHandling::~MessageHandling()
+                0x000000004806d970                MessageHandling::~MessageHandling()
+                0x000000004806d980                MessageHandling::MessageHandling()
+                0x000000004806d980                MessageHandling::MessageHandling()
+                0x000000004806d9b0                MessageHandling::MessageHandling(_Filet*)
+                0x000000004806d9b0                MessageHandling::MessageHandling(_Filet*)
+                0x000000004806d9d0                MessageHandling::MessageHandling(VisibilityStatus, VisibilityStatus, VisibilityStatus)
+                0x000000004806d9d0                MessageHandling::MessageHandling(VisibilityStatus, VisibilityStatus, VisibilityStatus)
+                0x000000004806da00                MessageHandling::MessageHandling(_Filet*, VisibilityStatus, VisibilityStatus, VisibilityStatus)
+                0x000000004806da00                MessageHandling::MessageHandling(_Filet*, VisibilityStatus, VisibilityStatus, VisibilityStatus)
+                0x000000004806da20                MessageHandling::MessageHandling(MessageHandling const&)
+                0x000000004806da20                MessageHandling::MessageHandling(MessageHandling const&)
+                0x000000004806da50                MessageHandling::operator=(MessageHandling const&)
+                0x000000004806da90                MessageHandling::throwError(returnValue, char const*, char const*, char const*, unsigned long, VisibilityStatus)
+                0x000000004806daa0                MessageHandling::throwWarning(returnValue, char const*, char const*, char const*, unsigned long, VisibilityStatus)
+                0x000000004806dab0                MessageHandling::throwInfo(returnValue, char const*, char const*, char const*, unsigned long, VisibilityStatus)
+                0x000000004806dac0                MessageHandling::reset()
+                0x000000004806daf0                MessageHandling::listAllMessages()
+                0x000000004806db00                MessageHandling::throwMessage(returnValue, char const*, char const*, char const*, unsigned long, VisibilityStatus, char const*)
+                0x000000004806db10                MessageHandling::getErrorCodeMessage(returnValue)
+                0x000000004806db20                getGlobalMessageHandler()
+ *fill*         0x000000004806db2c        0x4 00000000
+ .text.startup  0x000000004806db30       0x44 MessageHandling.cppm07
+ *fill*         0x000000004806db74        0xc 00000000
+ .text          0x000000004806db80     0x1188 example_QProblem.m07
+                0x000000004806db80                example_QProblem_output0
+                0x000000004806db90                example_QProblem_update0
+                0x000000004806dc10                example_QProblem_output1
+                0x000000004806e490                example_QProblem_update1
+                0x000000004806e510                example_QProblem_output
+                0x000000004806e520                example_QProblem_update
+                0x000000004806e560                example_QProblem_initialize
+                0x000000004806ecf0                example_QProblem_terminate
+ *fill*         0x000000004806ed08        0x8 00000000
+ .text          0x000000004806ed10      0x68c rt_matrx.m07
+                0x000000004806ed10                rt_mxCreateCharMatrixFromStrings
+                0x000000004806ef20                rt_mxCreateString
+                0x000000004806eff0                rt_mxCreateDoubleMatrix
+                0x000000004806f0b0                rt_mxCreateNumericArray
+                0x000000004806f0f0                rt_mxDuplicateArray
+                0x000000004806f1e0                rt_mxGetDimensions
+                0x000000004806f290                rt_mxGetEps
+                0x000000004806f2a0                rt_mxGetString
+ *fill*         0x000000004806f39c        0x4 00000000
+ .text          0x000000004806f3a0       0xc8 rt_printf.m07
+                0x000000004806f3a0                rtPrintfNoOp
+ .text          0x000000004806f468        0x0 example_QProblem_data.m07
+ .text          0x000000004806f468       0x84 example_QProblem_trc_ptr.m07
+                0x000000004806f4b8                example_QProblem_rti_init_trc_pointers
+ *fill*         0x000000004806f4ec        0x4 00000000
+ .text          0x000000004806f4f0       0x5c rtGetInf.m07
+                0x000000004806f4f0                rtGetInf
+                0x000000004806f510                rtGetInfF
+                0x000000004806f520                rtGetMinusInf
+                0x000000004806f540                rtGetMinusInfF
+ *fill*         0x000000004806f54c        0x4 00000000
+ .text          0x000000004806f550       0x3c rtGetNaN.m07
+                0x000000004806f550                rtGetNaN
+                0x000000004806f580                rtGetNaNF
+ *fill*         0x000000004806f58c        0x4 00000000
+ .text          0x000000004806f590      0x158 rt_nonfinite.m07
+                0x000000004806f590                rt_InitInfAndNaN
+                0x000000004806f5f0                rtIsInf
+                0x000000004806f620                rtIsInfF
+                0x000000004806f650                rtIsNaN
+                0x000000004806f6a0                rtIsNaNF
+ *fill*         0x000000004806f6e8        0x8 00000000
+ .text          0x000000004806f6f0      0xb80 qpOASES_QProblem.cppm07
+                0x000000004806fbf0                isNaN(double)
+                0x000000004806fc00                removeNaNs(double*, unsigned int)
+                0x000000004806fc20                removeInfs(double*, unsigned int)
+                0x000000004806fcb0                convertFortranToC(double const*, int, int, double*)
+                0x0000000048070230                qpOASES_QProblem
+ .text          0x0000000048070270      0x4f4 rti_sim_engine.m07
+                0x00000000480706f0                rtk_idle_function
+                0x0000000048070700                rti_th_timertask1_trigger_source
+                0x0000000048070750                initConditions
+                0x0000000048070760                initVariables
+ .text.unlikely
+                0x0000000048070764       0x78 rti_sim_engine.m07
+ *fill*         0x00000000480707dc        0x4 00000000
+ .text.startup  0x00000000480707e0      0x7f8 rti_sim_engine.m07
+                0x00000000480707e0                main
+ *fill*         0x0000000048070fd8        0x8 00000000
+ .text          0x0000000048070fe0       0x40 rti_init_cpp.m07
+                0x0000000048070fe0                rti_init
+ .text          0x0000000048071020       0x34 rt_sim.m07
+                0x0000000048071020                rt_SimInitTimingEngine
+                0x0000000048071050                rt_SimUpdateDiscreteTaskTime
+ *fill*         0x0000000048071054        0xc 00000000
+ .text          0x0000000048071060       0xd4 rti_assert.m07
+                0x0000000048071060                rti_assertion_handler
+                0x00000000480710f0                rti_assertion_mode_msg
+ .text          0x0000000048071134        0x0 Handcode_FPGA_Inverter_53A2F2A927216E.m07
+ .text          0x0000000048071134        0x0 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librtversion.a(RtVersion.o)
+ *fill*         0x0000000048071134        0xc 00000000
+ .text          0x0000000048071140        0x4 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librtglobals.a(DsEESPort.o)
+                0x0000000048071140                DsEesPort_init()
+ .text          0x0000000048071144       0x20 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libm_fastpow.a(w_pow.o)
+                0x0000000048071144                pow
+ .text          0x0000000048071164      0x85c C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libm_fastpow.a(e_pow.o)
+                0x0000000048071164                __ieee754_pow
+ .text          0x00000000480719c0      0x188 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libm_fastpow.a(s_scalbn.o)
+                0x00000000480719c0                scalbn
+ .text          0x0000000048071b48       0x94 c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0/crtend.o
+ .text          0x0000000048071bdc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crtn.o
+ *(.gnu.warning)
+ *(.glink)
+ .glink         0x0000000048071bdc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+
+.fini           0x0000000048071bdc       0x20
+ *(.fini)
+ .fini          0x0000000048071bdc        0xc C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crti.o
+                0x0000000048071bdc                _fini
+ .fini          0x0000000048071be8        0x4 c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0/crtbegin.o
+ .fini          0x0000000048071bec       0x10 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crtn.o
+                [!provide]                        PROVIDE (__etext, .)
+                0x0000000048071bfc                PROVIDE (_etext, .)
+                [!provide]                        PROVIDE (etext, .)
+
+.rodata         0x0000000048071c00     0x1870
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata._ZTS9SQProblem
+                0x0000000048071c00        0xb SQProblem.cppm07
+                0x0000000048071c00                typeinfo name for SQProblem
+ *fill*         0x0000000048071c0b        0x1 
+ .rodata._ZTI9SQProblem
+                0x0000000048071c0c        0xc SQProblem.cppm07
+                0x0000000048071c0c                typeinfo for SQProblem
+ .rodata._ZTV9SQProblem
+                0x0000000048071c18       0xa4 SQProblem.cppm07
+                0x0000000048071c18                vtable for SQProblem
+ .rodata.cst4   0x0000000048071cbc        0x8 SQProblem.cppm07
+ *fill*         0x0000000048071cc4        0x4 
+ .rodata.cst8   0x0000000048071cc8        0x8 SQProblem.cppm07
+ .rodata.str1.4
+                0x0000000048071cd0       0xe6 SQProblem.cppm07
+ *fill*         0x0000000048071db6        0x2 
+ .rodata        0x0000000048071db8       0x28 QProblem.cppm07
+ .rodata._ZTS8QProblem
+                0x0000000048071de0        0xa QProblem.cppm07
+                0x0000000048071de0                typeinfo name for QProblem
+ *fill*         0x0000000048071dea        0x2 
+ .rodata._ZTI8QProblem
+                0x0000000048071dec        0xc QProblem.cppm07
+                0x0000000048071dec                typeinfo for QProblem
+ .rodata._ZTV8QProblem
+                0x0000000048071df8       0x98 QProblem.cppm07
+                0x0000000048071df8                vtable for QProblem
+ .rodata.cst4   0x0000000048071e90        0xc QProblem.cppm07
+                                         0x14 (size before relaxing)
+ *fill*         0x0000000048071e9c        0x4 
+ .rodata.cst8   0x0000000048071ea0       0x28 QProblem.cppm07
+                                         0x30 (size before relaxing)
+ .rodata.str1.4
+                0x0000000048071ec8       0x3e QProblem.cppm07
+                                         0xe9 (size before relaxing)
+ *fill*         0x0000000048071f06        0x2 
+ .rodata        0x0000000048071f08       0x14 QProblemB.cppm07
+ .rodata._ZTS9QProblemB
+                0x0000000048071f1c        0xb QProblemB.cppm07
+                0x0000000048071f1c                typeinfo name for QProblemB
+ *fill*         0x0000000048071f27        0x1 
+ .rodata._ZTI9QProblemB
+                0x0000000048071f28        0x8 QProblemB.cppm07
+                0x0000000048071f28                typeinfo for QProblemB
+ .rodata._ZTV9QProblemB
+                0x0000000048071f30       0x54 QProblemB.cppm07
+                0x0000000048071f30                vtable for QProblemB
+ .rodata.cst4   0x0000000048071f84        0x8 QProblemB.cppm07
+                                         0x18 (size before relaxing)
+ *fill*         0x0000000048071f8c        0x4 
+ .rodata.cst8   0x0000000048071f90        0x8 QProblemB.cppm07
+                                         0x30 (size before relaxing)
+ .rodata.str1.4
+                0x0000000048071f98       0x82 QProblemB.cppm07
+                                         0xea (size before relaxing)
+ *fill*         0x000000004807201a        0x2 
+ .rodata._ZTS6Bounds
+                0x000000004807201c        0x8 Bounds.cppm07
+                0x000000004807201c                typeinfo name for Bounds
+ .rodata._ZTI6Bounds
+                0x0000000048072024        0xc Bounds.cppm07
+                0x0000000048072024                typeinfo for Bounds
+ .rodata._ZTV6Bounds
+                0x0000000048072030       0x18 Bounds.cppm07
+                0x0000000048072030                vtable for Bounds
+ .rodata.str1.4
+                0x0000000048072048       0x37 Bounds.cppm07
+                                         0x9a (size before relaxing)
+ *fill*         0x000000004807207f        0x1 
+ .rodata._ZTS11Constraints
+                0x0000000048072080        0xe Constraints.cppm07
+                0x0000000048072080                typeinfo name for Constraints
+ *fill*         0x000000004807208e        0x2 
+ .rodata._ZTI11Constraints
+                0x0000000048072090        0xc Constraints.cppm07
+                0x0000000048072090                typeinfo for Constraints
+ .rodata._ZTV11Constraints
+                0x000000004807209c       0x18 Constraints.cppm07
+                0x000000004807209c                vtable for Constraints
+ .rodata.str1.4
+                0x00000000480720b4       0x3c Constraints.cppm07
+                                         0x9e (size before relaxing)
+ .rodata._ZTS9SubjectTo
+                0x00000000480720f0        0xb SubjectTo.cppm07
+                0x00000000480720f0                typeinfo name for SubjectTo
+ *fill*         0x00000000480720fb        0x1 
+ .rodata._ZTI9SubjectTo
+                0x00000000480720fc        0x8 SubjectTo.cppm07
+                0x00000000480720fc                typeinfo for SubjectTo
+ .rodata._ZTV9SubjectTo
+                0x0000000048072104       0x18 SubjectTo.cppm07
+                0x0000000048072104                vtable for SubjectTo
+ .rodata.str1.4
+                0x000000004807211c       0x3a SubjectTo.cppm07
+                                         0x58 (size before relaxing)
+ *fill*         0x0000000048072156        0x2 
+ .rodata.str1.4
+                0x0000000048072158       0x3a Indexlist.cppm07
+                                         0x58 (size before relaxing)
+ .rodata.cst4   0x0000000048072192       0x10 Utils.cppm07
+ *fill*         0x0000000048072192        0x6 
+ .rodata.cst8   0x0000000048072198       0x10 Utils.cppm07
+                                         0x30 (size before relaxing)
+ .rodata.str1.4
+                0x00000000480721a8       0x36 Utils.cppm07
+                                         0x54 (size before relaxing)
+ *fill*         0x00000000480721de        0x2 
+ .rodata.cst4   0x00000000480721e0       0x10 Options.cppm07
+                                         0x1c (size before relaxing)
+ .rodata.cst8   0x00000000480721f0       0x38 Options.cppm07
+                                         0x58 (size before relaxing)
+ .rodata.str1.4
+                0x0000000048072228       0x38 Options.cppm07
+                                         0x54 (size before relaxing)
+ .rodata._ZTS6Matrix
+                0x0000000048072260        0x8 Matrices.cppm07
+                0x0000000048072260                typeinfo name for Matrix
+ .rodata._ZTI6Matrix
+                0x0000000048072268        0x8 Matrices.cppm07
+                0x0000000048072268                typeinfo for Matrix
+ .rodata._ZTS15SymmetricMatrix
+                0x0000000048072270       0x12 Matrices.cppm07
+                0x0000000048072270                typeinfo name for SymmetricMatrix
+ *fill*         0x0000000048072282        0x2 
+ .rodata._ZTI15SymmetricMatrix
+                0x0000000048072284       0x18 Matrices.cppm07
+                0x0000000048072284                typeinfo for SymmetricMatrix
+ .rodata._ZTS11DenseMatrix
+                0x000000004807229c        0xe Matrices.cppm07
+                0x000000004807229c                typeinfo name for DenseMatrix
+ *fill*         0x00000000480722aa        0x2 
+ .rodata._ZTI11DenseMatrix
+                0x00000000480722ac       0x18 Matrices.cppm07
+                0x00000000480722ac                typeinfo for DenseMatrix
+ .rodata._ZTS11SymDenseMat
+                0x00000000480722c4        0xe Matrices.cppm07
+                0x00000000480722c4                typeinfo name for SymDenseMat
+ *fill*         0x00000000480722d2        0x2 
+ .rodata._ZTI11SymDenseMat
+                0x00000000480722d4       0x20 Matrices.cppm07
+                0x00000000480722d4                typeinfo for SymDenseMat
+ .rodata._ZTS12SparseMatrix
+                0x00000000480722f4        0xf Matrices.cppm07
+                0x00000000480722f4                typeinfo name for SparseMatrix
+ *fill*         0x0000000048072303        0x1 
+ .rodata._ZTI12SparseMatrix
+                0x0000000048072304       0x18 Matrices.cppm07
+                0x0000000048072304                typeinfo for SparseMatrix
+ .rodata._ZTS15SparseMatrixRow
+                0x000000004807231c       0x12 Matrices.cppm07
+                0x000000004807231c                typeinfo name for SparseMatrixRow
+ *fill*         0x000000004807232e        0x2 
+ .rodata._ZTI15SparseMatrixRow
+                0x0000000048072330       0x18 Matrices.cppm07
+                0x0000000048072330                typeinfo for SparseMatrixRow
+ .rodata._ZTS12SymSparseMat
+                0x0000000048072348        0xf Matrices.cppm07
+                0x0000000048072348                typeinfo name for SymSparseMat
+ *fill*         0x0000000048072357        0x1 
+ .rodata._ZTI12SymSparseMat
+                0x0000000048072358       0x20 Matrices.cppm07
+                0x0000000048072358                typeinfo for SymSparseMat
+ .rodata._ZTV6Matrix
+                0x0000000048072378       0x64 Matrices.cppm07
+                0x0000000048072378                vtable for Matrix
+ .rodata._ZTT11DenseMatrix
+                0x00000000480723dc        0x8 Matrices.cppm07
+                0x00000000480723dc                VTT for DenseMatrix
+ .rodata._ZTV11DenseMatrix
+                0x00000000480723e4      0x118 Matrices.cppm07
+                0x00000000480723e4                vtable for DenseMatrix
+ .rodata._ZTC11SymDenseMat20_15SymmetricMatrix
+                0x00000000480724fc       0xd8 Matrices.cppm07
+                0x00000000480724fc                construction vtable for SymmetricMatrix-in-SymDenseMat
+ .rodata._ZTC11SymDenseMat0_11DenseMatrix
+                0x00000000480725d4      0x118 Matrices.cppm07
+                0x00000000480725d4                construction vtable for DenseMatrix-in-SymDenseMat
+ .rodata._ZTT11SymDenseMat
+                0x00000000480726ec       0x1c Matrices.cppm07
+                0x00000000480726ec                VTT for SymDenseMat
+ .rodata._ZTV11SymDenseMat
+                0x0000000048072708      0x13c Matrices.cppm07
+                0x0000000048072708                vtable for SymDenseMat
+ .rodata._ZTT12SparseMatrix
+                0x0000000048072844        0x8 Matrices.cppm07
+                0x0000000048072844                VTT for SparseMatrix
+ .rodata._ZTV12SparseMatrix
+                0x000000004807284c      0x11c Matrices.cppm07
+                0x000000004807284c                vtable for SparseMatrix
+ .rodata._ZTT15SparseMatrixRow
+                0x0000000048072968        0x8 Matrices.cppm07
+                0x0000000048072968                VTT for SparseMatrixRow
+ .rodata._ZTV15SparseMatrixRow
+                0x0000000048072970      0x118 Matrices.cppm07
+                0x0000000048072970                vtable for SparseMatrixRow
+ .rodata._ZTC12SymSparseMat4_12SparseMatrix
+                0x0000000048072a88      0x11c Matrices.cppm07
+                0x0000000048072a88                construction vtable for SparseMatrix-in-SymSparseMat
+ .rodata._ZTC12SymSparseMat0_15SymmetricMatrix
+                0x0000000048072ba4       0xd8 Matrices.cppm07
+                0x0000000048072ba4                construction vtable for SymmetricMatrix-in-SymSparseMat
+ .rodata._ZTT12SymSparseMat
+                0x0000000048072c7c       0x1c Matrices.cppm07
+                0x0000000048072c7c                VTT for SymSparseMat
+ .rodata._ZTV12SymSparseMat
+                0x0000000048072c98      0x13c Matrices.cppm07
+                0x0000000048072c98                vtable for SymSparseMat
+ .rodata.cst4   0x0000000048072dd4        0xc Matrices.cppm07
+ .rodata.cst8   0x0000000048072dd4       0x20 Matrices.cppm07
+ .rodata.str1.4
+                0x0000000048072dd4       0xba Matrices.cppm07
+                                         0xd6 (size before relaxing)
+ .rodata.cst4   0x0000000048072e8e        0x8 BLASReplacement.cppm07
+ .rodata.cst8   0x0000000048072e8e        0x8 BLASReplacement.cppm07
+ .rodata.cst4   0x0000000048072e8e        0x4 LAPACKReplacement.cppm07
+ *fill*         0x0000000048072e8e        0x2 
+ .rodata.str1.4
+                0x0000000048072e90       0x1f MessageHandling.cppm07
+ *fill*         0x0000000048072eaf        0x1 
+ .rodata        0x0000000048072eb0        0x4 example_QProblem.m07
+                0x0000000048072eb0                example_QProblem_M
+ .rodata.cst4   0x0000000048072eb4        0x8 example_QProblem.m07
+                                         0x14 (size before relaxing)
+ *fill*         0x0000000048072ebc        0x4 
+ .rodata.cst8   0x0000000048072ec0       0x10 example_QProblem.m07
+ .rodata.str1.4
+                0x0000000048072ed0       0x35 example_QProblem.m07
+ *fill*         0x0000000048072f05        0x3 
+ .rodata.cst4   0x0000000048072f08        0x8 rt_matrx.m07
+                                         0x1c (size before relaxing)
+ .rodata.str1.4
+                0x0000000048072f10        0xf rt_printf.m07
+ *fill*         0x0000000048072f1f        0x1 
+ .rodata.cst4   0x0000000048072f20        0x8 rtGetInf.m07
+ .rodata.cst4   0x0000000048072f28        0x4 rtGetNaN.m07
+ .rodata.cst4   0x0000000048072f2c       0x10 qpOASES_QProblem.cppm07
+ .rodata.cst8   0x0000000048072f2c       0x10 qpOASES_QProblem.cppm07
+ .rodata        0x0000000048072f2c        0xc rti_sim_engine.m07
+                0x0000000048072f2c                rtiDataSetStorageEnabled
+                0x0000000048072f30                p_dsts_sum_of_reset_time
+                0x0000000048072f34                p_msg_last_error_no
+ .rodata.cst4   0x0000000048072f38        0x4 rti_sim_engine.m07
+ .rodata.cst8   0x0000000048072f38       0x10 rti_sim_engine.m07
+ .rodata.str1.4
+                0x0000000048072f38      0x2fd rti_sim_engine.m07
+ .rodata.cst4   0x0000000048073235        0x4 rt_sim.m07
+ *fill*         0x0000000048073235        0x3 
+ .rodata.str1.4
+                0x0000000048073238       0x71 rt_sim.m07
+ *fill*         0x00000000480732a9        0x3 
+ .rodata.str1.4
+                0x00000000480732ac       0x70 rti_assert.m07
+                                         0x6d (size before relaxing)
+ *fill*         0x000000004807331c        0x4 
+ .rodata        0x0000000048073320       0x30 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libm_fastpow.a(e_pow.o)
+ .rodata.cst4   0x0000000048073350        0x8 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libm_fastpow.a(e_pow.o)
+ .rodata.cst8   0x0000000048073358       0xe8 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libm_fastpow.a(e_pow.o)
+ .rodata.cst8   0x0000000048073440       0x30 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libm_fastpow.a(s_scalbn.o)
+
+.rodata1
+ *(.rodata1)
+
+.sdata2         0x0000000048073470        0x0
+                0x0000000000008000                PROVIDE (_SDA2_BASE_, 0x8000)
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+ .sdata2        0x0000000048073470        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+
+.sbss2
+ *(.sbss2 .sbss2.* .gnu.linkonce.sb2.*)
+
+.eh_frame_hdr   0x0000000048073470      0xe64
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000048073470      0xe64 SQProblem.cppm07
+
+.eh_frame       0x00000000480742d4     0x5324
+ *(.eh_frame)
+ .eh_frame      0x00000000480742d4        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .eh_frame      0x00000000480742d4        0x0 c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0/crtbegin.o
+ .eh_frame      0x00000000480742d4      0x374 SQProblem.cppm07
+ .eh_frame      0x0000000048074648     0x1414 QProblem.cppm07
+                                       0x1444 (size before relaxing)
+ .eh_frame      0x0000000048075a5c      0xf60 QProblemB.cppm07
+                                        0xf90 (size before relaxing)
+ .eh_frame      0x00000000480769bc      0x424 Bounds.cppm07
+                                        0x454 (size before relaxing)
+ .eh_frame      0x0000000048076de0      0x3fc Constraints.cppm07
+                                        0x42c (size before relaxing)
+ .eh_frame      0x00000000480771dc      0x1ec SubjectTo.cppm07
+                                        0x200 (size before relaxing)
+ .eh_frame      0x00000000480773c8      0x238 Indexlist.cppm07
+                                        0x24c (size before relaxing)
+ .eh_frame      0x0000000048077600      0x1e0 Flipper.cppm07
+                                        0x210 (size before relaxing)
+ .eh_frame      0x00000000480777e0      0x2f8 Utils.cppm07
+                                        0x30c (size before relaxing)
+ .eh_frame      0x0000000048077ad8      0x128 Options.cppm07
+                                        0x13c (size before relaxing)
+ .eh_frame      0x0000000048077c00     0x1568 Matrices.cppm07
+                                       0x15c8 (size before relaxing)
+ .eh_frame      0x0000000048079168       0xd0 BLASReplacement.cppm07
+                                         0xe4 (size before relaxing)
+ .eh_frame      0x0000000048079238      0x118 LAPACKReplacement.cppm07
+                                        0x12c (size before relaxing)
+ .eh_frame      0x0000000048079350      0x140 MessageHandling.cppm07
+                                        0x154 (size before relaxing)
+ .eh_frame      0x0000000048079490      0x150 qpOASES_QProblem.cppm07
+                                        0x180 (size before relaxing)
+ .eh_frame      0x00000000480795e0       0x14 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librtglobals.a(DsEESPort.o)
+                                         0x28 (size before relaxing)
+ .eh_frame      0x00000000480795f4        0x4 c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0/crtend.o
+
+.gcc_except_table
+                0x00000000480795f8      0x2f6
+ *(.gcc_except_table .gcc_except_table.*)
+ .gcc_except_table
+                0x00000000480795f8       0x28 SQProblem.cppm07
+ .gcc_except_table
+                0x0000000048079620       0x6f QProblem.cppm07
+ .gcc_except_table
+                0x000000004807968f       0x94 QProblemB.cppm07
+ .gcc_except_table
+                0x0000000048079723       0xba Bounds.cppm07
+ .gcc_except_table
+                0x00000000480797dd       0xba Constraints.cppm07
+ .gcc_except_table
+                0x0000000048079897       0x38 Flipper.cppm07
+ .gcc_except_table
+                0x00000000480798cf       0x1f qpOASES_QProblem.cppm07
+                0x00000000480798ee                . = (ALIGN (0x1000) - ((0x1000 - .) & 0xfff))
+                0x000000004807a8ee                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x000000004807a8ee        0x0
+                0x000000004807a8ee                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x000000004807a8ee                PROVIDE (__preinit_array_end, .)
+
+.init_array     0x000000004807a8ee        0x0
+                0x000000004807a8ee                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x000000004807a8ee                PROVIDE (__init_array_end, .)
+
+.fini_array     0x000000004807a8ee        0x0
+                0x000000004807a8ee                PROVIDE (__fini_array_start, .)
+ *(.fini_array)
+ *(SORT(.fini_array.*))
+                0x000000004807a8ee                PROVIDE (__fini_array_end, .)
+
+.ctors          0x000000004807a8f0        0xc
+ *crtbegin.o(.ctors)
+ .ctors         0x000000004807a8f0        0x4 c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0/crtbegin.o
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ .ctors         0x000000004807a8f4        0x4 MessageHandling.cppm07
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x000000004807a8f8        0x4 c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0/crtend.o
+
+.dtors          0x000000004807a8fc        0x8
+ *crtbegin.o(.dtors)
+ .dtors         0x000000004807a8fc        0x4 c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0/crtbegin.o
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x000000004807a900        0x4 c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0/crtend.o
+                0x000000004807a900                __DTOR_END__
+
+.jcr            0x000000004807a904        0x4
+ *(.jcr)
+ .jcr           0x000000004807a904        0x0 c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0/crtbegin.o
+ .jcr           0x000000004807a904        0x4 c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0/crtend.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro* .gnu.linkonce.d.rel.ro.*)
+
+.fixup
+ *(.fixup)
+
+.got1
+ *(.got1)
+
+.got2
+ *(.got2)
+
+.dynamic        0x000000004807a908      0x220
+ *(.dynamic)
+ .dynamic       0x000000004807a908      0x220 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+                0x000000004807a908                _DYNAMIC
+
+.got
+ *(.got)
+                0x000000004807ab28                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.plt
+ *(.plt)
+
+.data           0x000000004807ab28    0x1efa4
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000000004807ab28        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .data          0x000000004807ab28        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crti.o
+ .data          0x000000004807ab28        0x0 c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0/crtbegin.o
+ .data.rel.local
+                0x000000004807ab28        0x4 c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0/crtbegin.o
+                0x000000004807ab28                __dso_handle
+ .data          0x000000004807ab2c        0x0 SQProblem.cppm07
+ .data          0x000000004807ab2c        0x0 QProblem.cppm07
+ .data          0x000000004807ab2c        0x0 QProblemB.cppm07
+ .data          0x000000004807ab2c        0x0 Bounds.cppm07
+ .data          0x000000004807ab2c        0x0 Constraints.cppm07
+ .data          0x000000004807ab2c        0x0 SubjectTo.cppm07
+ .data          0x000000004807ab2c        0x0 Indexlist.cppm07
+ .data          0x000000004807ab2c        0x0 Flipper.cppm07
+ .data          0x000000004807ab2c        0x0 Utils.cppm07
+ .data          0x000000004807ab2c        0x0 Options.cppm07
+ .data          0x000000004807ab2c        0x0 Matrices.cppm07
+ .data          0x000000004807ab2c        0x0 BLASReplacement.cppm07
+ .data          0x000000004807ab2c        0x0 LAPACKReplacement.cppm07
+ .data          0x000000004807ab2c        0x4 MessageHandling.cppm07
+                0x000000004807ab2c                stdFile
+ .data          0x000000004807ab30       0xd0 example_QProblem.m07
+ .data          0x000000004807ac00        0x0 rt_matrx.m07
+ .data          0x000000004807ac00        0x0 rt_printf.m07
+ .data          0x000000004807ac00       0x50 example_QProblem_data.m07
+                0x000000004807ac00                example_QProblem_P
+ .data          0x000000004807ac50        0x0 example_QProblem_trc_ptr.m07
+ .data          0x000000004807ac50        0x0 rtGetInf.m07
+ .data          0x000000004807ac50        0x0 rtGetNaN.m07
+ .data          0x000000004807ac50        0x0 rt_nonfinite.m07
+ .data          0x000000004807ac50        0x0 qpOASES_QProblem.cppm07
+ .data          0x000000004807ac50       0x14 rti_sim_engine.m07
+                0x000000004807ac50                simState
+                0x000000004807ac60                lastSimState
+ .data          0x000000004807ac64        0x0 rti_init_cpp.m07
+ .data          0x000000004807ac64        0x0 rt_sim.m07
+ .data          0x000000004807ac64        0x0 rti_assert.m07
+ *fill*         0x000000004807ac64        0x4 
+ .data          0x000000004807ac68    0x1ee57 Handcode_FPGA_Inverter_53A2F2A927216E.m07
+                0x000000004807ac68                fpga_prgrm_data_ptr_53A2F2A927216E
+                0x000000004807ac70                prgr_dat_53A2F2A927216E
+                0x000000004807ace8                bitstream_53A2F2A927216E
+                0x0000000048099a98                compat_boards_min_53A2F2A927216E
+                0x0000000048099aa8                compat_boards_maj_53A2F2A927216E
+                0x0000000048099ab8                board_id_53A2F2A927216E
+ .data          0x0000000048099abf        0x0 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librtversion.a(RtVersion.o)
+ .data          0x0000000048099abf        0x0 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librtglobals.a(DsEESPort.o)
+ *fill*         0x0000000048099abf        0x1 
+ .data.rel      0x0000000048099ac0        0xc C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librtglobals.a(DsEESPort.o)
+                0x0000000048099ac0                p_xilapi_eesport_errorswitching_uint32_T
+                0x0000000048099ac4                p_xilapi_eesport_erroractivated_uint32_T
+                0x0000000048099ac8                p_xilapi_eesport_activeerrorset_uint32_T
+ .data          0x0000000048099acc        0x0 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libm_fastpow.a(w_pow.o)
+ .data          0x0000000048099acc        0x0 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libm_fastpow.a(e_pow.o)
+ .data          0x0000000048099acc        0x0 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libm_fastpow.a(s_scalbn.o)
+ .data          0x0000000048099acc        0x0 c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0/crtend.o
+ .data          0x0000000048099acc        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crtn.o
+
+.tm_clone_table
+                0x0000000048099acc        0x0
+ .tm_clone_table
+                0x0000000048099acc        0x0 c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0/crtbegin.o
+ .tm_clone_table
+                0x0000000048099acc        0x0 c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0/crtend.o
+
+.data1
+ *(.data1)
+
+.got            0x0000000048099acc       0x54
+ *(.got)
+ .got           0x0000000048099acc       0x54 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+                0x0000000048099b14                _GLOBAL_OFFSET_TABLE_
+
+.sdata          0x0000000048099b20        0x0
+                0x0000000000008000                PROVIDE (_SDA_BASE_, 0x8000)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ .sdata         0x0000000048099b20        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+                0x0000000048099b20                _edata = .
+                [!provide]                        PROVIDE (edata, .)
+                0x0000000048099b20                __bss_start = .
+
+.sbss           0x0000000048099b20        0x0
+                [!provide]                        PROVIDE (__sbss_start, .)
+                [!provide]                        PROVIDE (___sbss_start, .)
+ *(.dynsbss)
+ .dynsbss       0x0000000048099b20        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ *(.scommon)
+                [!provide]                        PROVIDE (__sbss_end, .)
+                [!provide]                        PROVIDE (___sbss_end, .)
+
+.plt            0x0000000048099b20      0x3fc
+ *(.plt)
+ .plt           0x0000000048099b20      0x3fc C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+                0x0000000048099b68                ds5203_init
+                0x0000000048099b70                ts_reset
+                0x0000000048099b78                __register_frame_info
+                0x0000000048099b80                msg_error_clear
+                0x0000000048099b88                dsrtt_set_current_time
+                0x0000000048099b90                sqrt
+                0x0000000048099b98                calloc
+                0x0000000048099ba0                operator new[](unsigned int)
+                0x0000000048099ba8                rtk_current_task_absolute_time_ptr_get
+                0x0000000048099bb0                DsTimeSync_simstateRun
+                0x0000000048099bb8                operator delete[](void*)
+                0x0000000048099bc0                memcpy
+                0x0000000048099bc8                rtk_setup_temp_overrun_handling
+                0x0000000048099bd0                SrtkIntBase_requestTaskMode
+                0x0000000048099bd8                rtk_reset_tasks
+                0x0000000048099be0                rtk_scheduler
+                0x0000000048099be8                __cxa_finalize
+                0x0000000048099bf0                malloc
+                0x0000000048099bf8                operator delete(void*)
+                0x0000000048099c00                _init_array
+                0x0000000048099c08                rtk_set_task_type
+                0x0000000048099c10                DsTimeSync_baserate
+                0x0000000048099c18                rtk_task_name_set
+                0x0000000048099c20                strlen
+                0x0000000048099c28                __wrap_fwrite
+                0x0000000048099c30                dsrtt_script_service_post_computation
+                0x0000000048099c38                rtk_create_task
+                0x0000000048099c40                __cxa_atexit
+                0x0000000048099c48                msg_warning_printf
+                0x0000000048099c50                msg_last_error_number
+                0x0000000048099c58                dsparam_copy_data_set
+                0x0000000048099c60                SrtkPreload_preloadRegion
+                0x0000000048099c68                msg_error_set
+                0x0000000048099c70                rtk_enable_services
+                0x0000000048099c78                SrtkDaq_Init
+                0x0000000048099c80                __gxx_personality_v0
+                0x0000000048099c88                rtk_task_task_calls_get
+                0x0000000048099c90                _Unwind_Resume
+                0x0000000048099c98                __wrap_fprintf
+                0x0000000048099ca0                DsTimeSync_setCurrentTimePtr
+                0x0000000048099ca8                SrtkIntBase_enableIntGlobal
+                0x0000000048099cb0                vsprintf
+                0x0000000048099cb8                rtk_get_task_pointer
+                0x0000000048099cc0                rtk_overrun_flag_clear
+                0x0000000048099cc8                rtk_bind_interrupt
+                0x0000000048099cd0                _init_libc
+                0x0000000048099cd8                dsrtt_init
+                0x0000000048099ce0                msg_info_set
+                0x0000000048099ce8                dsrtt_script_service_pre_computation
+                0x0000000048099cf0                msg_error_printf
+                0x0000000048099cf8                memset
+                0x0000000048099d00                rtk_leave_idle_mode
+                0x0000000048099d08                __wrap_exit
+                0x0000000048099d10                __wrap_atexit
+                0x0000000048099d18                _fini_array
+                0x0000000048099d20                SrtkDaq_Background
+                0x0000000048099d28                _preinit_array
+                0x0000000048099d30                SrtkApp_init
+                0x0000000048099d38                rtk_task_user_data_get
+                0x0000000048099d40                SrtkDaq_Service
+                0x0000000048099d48                rtk_task_task_name_get
+                0x0000000048099d50                SrtkSim_notifyStateTransition
+                0x0000000048099d58                __cxa_throw_bad_array_new_length
+                0x0000000048099d60                msg_info_printf
+                0x0000000048099d68                msg_set
+                0x0000000048099d70                ds5203_program
+                0x0000000048099d78                rtk_get_subentry
+                0x0000000048099d80                free
+                0x0000000048099d88                dsrtt_set_step_size
+                0x0000000048099d90                rtk_enter_idle_mode
+                0x0000000048099d98                rtk_initialize
+                0x0000000048099da0                operator new(unsigned int)
+                0x0000000048099da8                SrtkApp_background
+                0x0000000048099db0                rtk_default_overrun_fcn
+                0x0000000048099db8                vcm_module_register
+                0x0000000048099dc0                DsTimeSync_simstateStop
+                0x0000000048099dc8                SrtkIntBase_disableIntGlobal
+                0x0000000048099dd0                SrtkSim_registerState
+                0x0000000048099dd8                __deregister_frame_info
+
+.bss            0x0000000048099f20     0x1a5c
+ *(.dynbss)
+ .dynbss        0x0000000048099f20      0xb6c C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+                0x0000000048099f20                errno
+                0x0000000048099f28                dsts_sum_of_reseted_time
+                0x0000000048099f30                msg_last_error_no
+                0x0000000048099f34                SrtkBoard_pControlRegisters
+                0x0000000048099f38                phs_basetbl
+                0x000000004809a9b8                _Stderr
+                0x000000004809aa08                vtable for __cxxabiv1::__vmi_class_type_info
+                0x000000004809aa34                vtable for __cxxabiv1::__class_type_info
+                0x000000004809aa60                vtable for __cxxabiv1::__si_class_type_info
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000000004809aa8c        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+ .bss           0x000000004809aa8c        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crti.o
+ .bss           0x000000004809aa8c       0x20 c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0/crtbegin.o
+ .bss           0x000000004809aaac        0x0 SQProblem.cppm07
+ .bss           0x000000004809aaac        0x0 QProblem.cppm07
+ .bss           0x000000004809aaac        0x0 QProblemB.cppm07
+ .bss           0x000000004809aaac        0x0 Bounds.cppm07
+ .bss           0x000000004809aaac        0x0 Constraints.cppm07
+ .bss           0x000000004809aaac        0x0 SubjectTo.cppm07
+ .bss           0x000000004809aaac        0x0 Indexlist.cppm07
+ .bss           0x000000004809aaac        0x0 Flipper.cppm07
+ .bss           0x000000004809aaac        0x0 Utils.cppm07
+ .bss           0x000000004809aaac        0x0 Options.cppm07
+ .bss           0x000000004809aaac        0x0 Matrices.cppm07
+ .bss           0x000000004809aaac        0x0 BLASReplacement.cppm07
+ .bss           0x000000004809aaac        0x0 LAPACKReplacement.cppm07
+ .bss           0x000000004809aaac       0x20 MessageHandling.cppm07
+                0x000000004809aac0                returnValueList
+ *fill*         0x000000004809aacc        0x4 
+ .bss           0x000000004809aad0      0x9d8 example_QProblem.m07
+                0x000000004809b3d0                example_QProblem_DW
+                0x000000004809b440                example_QProblem_B
+ .bss           0x000000004809b4a8        0x8 rt_matrx.m07
+ .bss           0x000000004809b4b0      0x400 rt_printf.m07
+ .bss           0x000000004809b8b0        0x0 example_QProblem_data.m07
+ .bss           0x000000004809b8b0        0xc example_QProblem_trc_ptr.m07
+                0x000000004809b8b0                p_0_example_QProblem_real_T_0
+                0x000000004809b8b4                p_1_example_QProblem_real_T_0
+                0x000000004809b8b8                p_2_example_QProblem_int_T_1
+ .bss           0x000000004809b8bc        0x0 rtGetInf.m07
+ .bss           0x000000004809b8bc        0x0 rtGetNaN.m07
+ *fill*         0x000000004809b8bc        0x4 
+ .bss           0x000000004809b8c0       0x2c rt_nonfinite.m07
+                0x000000004809b8c0                rtNaN
+                0x000000004809b8c8                rtNaNF
+                0x000000004809b8d0                rtInf
+                0x000000004809b8d8                rtInfF
+                0x000000004809b8e0                rtMinusInf
+                0x000000004809b8e8                rtMinusInfF
+ .bss           0x000000004809b8ec        0x0 qpOASES_QProblem.cppm07
+ *fill*         0x000000004809b8ec        0x4 
+ .bss           0x000000004809b8f0       0x68 rti_sim_engine.m07
+                0x000000004809b8f0                currentTime
+                0x000000004809b8f4                finalTime
+                0x000000004809b8f8                modelStepSize
+                0x000000004809b900                taskMode
+                0x000000004809b904                pRti_TIMERA_STime
+                0x000000004809b908                pRti_TIMERA_TTime
+                0x000000004809b90c                pRti_TIMERA_TState
+                0x000000004809b910                pRti_TIMERA_OType
+                0x000000004809b914                pRti_TIMERA_OMax
+                0x000000004809b918                pRti_TIMERA_ORpt
+                0x000000004809b91c                pRti_TIMERA_OCnt
+                0x000000004809b920                pRti_TIMERA_TCnt
+                0x000000004809b924                pRti_TIMERA_Prio
+                0x000000004809b92c                pRti_TIMERA2_STime
+                0x000000004809b930                pRti_TIMERA2_TTime
+                0x000000004809b934                pRti_TIMERA2_TState
+                0x000000004809b938                pRti_TIMERA2_OType
+                0x000000004809b93c                pRti_TIMERA2_OMax
+                0x000000004809b940                pRti_TIMERA2_ORpt
+                0x000000004809b944                pRti_TIMERA2_OCnt
+                0x000000004809b948                pRti_TIMERA2_TCnt
+                0x000000004809b94c                pRti_TIMERA2_Prio
+                0x000000004809b954                rtiAssertionMode
+ .bss           0x000000004809b958        0x8 rti_init_cpp.m07
+                0x000000004809b95c                _cplusplus_used
+ .bss           0x000000004809b960        0x0 rt_sim.m07
+ .bss           0x000000004809b960        0x0 rti_assert.m07
+ .bss           0x000000004809b960        0x8 Handcode_FPGA_Inverter_53A2F2A927216E.m07
+                0x000000004809b960                compat_board_plds_min_53A2F2A927216E
+                0x000000004809b964                compat_board_plds_maj_53A2F2A927216E
+ .bss           0x000000004809b968        0x0 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librtversion.a(RtVersion.o)
+ .bss           0x000000004809b968       0x14 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librtglobals.a(DsEESPort.o)
+                0x000000004809b968                xilapi_eesport_trigger_uint32_T
+                0x000000004809b96c                xilapi_eesport_flags_uint32_T
+                0x000000004809b970                xilapi_eesport_errorswitching_uint32_T
+                0x000000004809b974                xilapi_eesport_erroractivated_uint32_T
+                0x000000004809b978                xilapi_eesport_activeerrorset_uint32_T
+ .bss           0x000000004809b97c        0x0 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libm_fastpow.a(w_pow.o)
+ .bss           0x000000004809b97c        0x0 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libm_fastpow.a(e_pow.o)
+ .bss           0x000000004809b97c        0x0 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libm_fastpow.a(s_scalbn.o)
+ .bss           0x000000004809b97c        0x0 c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0/crtend.o
+ .bss           0x000000004809b97c        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crtn.o
+ *(COMMON)
+                0x000000004809b97c                . = ALIGN ((. != 0x0)?0x4:0x1)
+
+.iplt           0x000000004809b980        0x0
+ .iplt          0x000000004809b980        0x0 C:\ProgramData\dSPACE\7290F786-B6F7-4BA3-9178-C21B0382F310\Compiler\QNX650_520\target\qnx6/ppcbe/lib/crt1.o
+                0x000000004809b980                . = ALIGN (0x4)
+                0x000000004809b980                . = ALIGN (0x4)
+                0x000000004809b980                __end = .
+                0x000000004809b980                _end = .
+                [!provide]                        PROVIDE (end, .)
+                0x000000004809b980                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x47
+ *(.comment)
+ .comment       0x0000000000000000       0x11 c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0/crtbegin.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000011       0x12 SQProblem.cppm07
+ .comment       0x0000000000000011       0x12 QProblem.cppm07
+ .comment       0x0000000000000011       0x12 QProblemB.cppm07
+ .comment       0x0000000000000011       0x12 Bounds.cppm07
+ .comment       0x0000000000000011       0x12 Constraints.cppm07
+ .comment       0x0000000000000011       0x12 SubjectTo.cppm07
+ .comment       0x0000000000000011       0x12 Indexlist.cppm07
+ .comment       0x0000000000000011       0x12 Flipper.cppm07
+ .comment       0x0000000000000011       0x12 Utils.cppm07
+ .comment       0x0000000000000011       0x12 Options.cppm07
+ .comment       0x0000000000000011       0x12 Matrices.cppm07
+ .comment       0x0000000000000011       0x12 BLASReplacement.cppm07
+ .comment       0x0000000000000011       0x12 LAPACKReplacement.cppm07
+ .comment       0x0000000000000011       0x12 MessageHandling.cppm07
+ .comment       0x0000000000000011       0x12 example_QProblem.m07
+ .comment       0x0000000000000011       0x12 rt_matrx.m07
+ .comment       0x0000000000000011       0x12 rt_printf.m07
+ .comment       0x0000000000000011       0x12 example_QProblem_data.m07
+ .comment       0x0000000000000011       0x12 example_QProblem_trc_ptr.m07
+ .comment       0x0000000000000011       0x12 rtGetInf.m07
+ .comment       0x0000000000000011       0x12 rtGetNaN.m07
+ .comment       0x0000000000000011       0x12 rt_nonfinite.m07
+ .comment       0x0000000000000011       0x12 qpOASES_QProblem.cppm07
+ .comment       0x0000000000000011       0x12 rti_sim_engine.m07
+ .comment       0x0000000000000011       0x12 rti_init_cpp.m07
+ .comment       0x0000000000000011       0x12 rt_sim.m07
+ .comment       0x0000000000000011       0x12 rti_assert.m07
+ .comment       0x0000000000000011       0x12 Handcode_FPGA_Inverter_53A2F2A927216E.m07
+ .comment       0x0000000000000011       0x12 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librtversion.a(RtVersion.o)
+ .comment       0x0000000000000011       0x12 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/librtglobals.a(DsEESPort.o)
+ .comment       0x0000000000000011       0x12 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libm_fastpow.a(w_pow.o)
+ .comment       0x0000000000000023       0x12 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libm_fastpow.a(e_pow.o)
+ .comment       0x0000000000000035       0x12 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libm_fastpow.a(s_scalbn.o)
+ .comment       0x0000000000000047       0x12 c:/programdata/dspace/7290f786-b6f7-4ba3-9178-c21b0382f310/compiler/qnx650_520/host/win32/x86/usr/bin/../lib/gcc/powerpc-unknown-nto-qnx6.5.0/5.2.0/crtend.o
+
+.PPC.EMB.apuinfo
+                0x0000000000000000       0x18
+ .PPC.EMB.apuinfo
+                0x0000000000000000       0x18 QProblem.cppm07
+ .PPC.EMB.apuinfo
+                0x0000000000000018       0x18 QProblemB.cppm07
+ .PPC.EMB.apuinfo
+                0x0000000000000030       0x18 Indexlist.cppm07
+ .PPC.EMB.apuinfo
+                0x0000000000000048       0x18 Utils.cppm07
+ .PPC.EMB.apuinfo
+                0x0000000000000060       0x18 Matrices.cppm07
+ .PPC.EMB.apuinfo
+                0x0000000000000078       0x18 MessageHandling.cppm07
+ .PPC.EMB.apuinfo
+                0x0000000000000090       0x18 rt_matrx.m07
+ .PPC.EMB.apuinfo
+                0x00000000000000a8       0x18 rt_nonfinite.m07
+ .PPC.EMB.apuinfo
+                0x00000000000000c0       0x18 qpOASES_QProblem.cppm07
+ .PPC.EMB.apuinfo
+                0x00000000000000d8       0x18 rti_sim_engine.m07
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.gnu.attributes
+                0x0000000000000000       0x14
+ *(.gnu.attributes)
+ .gnu.attributes
+                0x0000000000000000       0x10 SQProblem.cppm07
+ .gnu.attributes
+                0x0000000000000010       0x10 QProblem.cppm07
+ .gnu.attributes
+                0x0000000000000020       0x10 QProblemB.cppm07
+ .gnu.attributes
+                0x0000000000000030       0x10 Utils.cppm07
+ .gnu.attributes
+                0x0000000000000040       0x10 Matrices.cppm07
+ .gnu.attributes
+                0x0000000000000050       0x10 LAPACKReplacement.cppm07
+ .gnu.attributes
+                0x0000000000000060       0x10 rt_matrx.m07
+ .gnu.attributes
+                0x0000000000000070       0x10 rt_printf.m07
+ .gnu.attributes
+                0x0000000000000080       0x10 rtGetInf.m07
+ .gnu.attributes
+                0x0000000000000090       0x10 rtGetNaN.m07
+ .gnu.attributes
+                0x00000000000000a0       0x10 rt_nonfinite.m07
+ .gnu.attributes
+                0x00000000000000b0       0x10 qpOASES_QProblem.cppm07
+ .gnu.attributes
+                0x00000000000000c0       0x10 rti_sim_engine.m07
+ .gnu.attributes
+                0x00000000000000d0       0x10 rt_sim.m07
+ .gnu.attributes
+                0x00000000000000e0       0x10 rti_assert.m07
+ .gnu.attributes
+                0x00000000000000f0       0x14 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libm_fastpow.a(w_pow.o)
+ .gnu.attributes
+                0x0000000000000104       0x14 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libm_fastpow.a(e_pow.o)
+ .gnu.attributes
+                0x0000000000000118       0x14 C:\Program Files\dSPACE RCPHIL 2021-A\DS1007\Lib/libm_fastpow.a(s_scalbn.o)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+OUTPUT(example_QProblem.ppc elf32-powerpc)
